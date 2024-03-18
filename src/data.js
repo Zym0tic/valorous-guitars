@@ -1,6 +1,6 @@
 import Logo from '../src/svg/ValorousLogo.svg';
 //import about photos
-import img1 from '../src/img/about/1hristo-4405.jpeg';
+import img1 from '../src/img/about/valimg.jpg';
 import img2 from '../src/img/about/1hristo-4430.jpg';
 import img3 from '../src/img/about/1hristo-4462.jpg';
 import img4 from '../src/img/about/1hristo-4497.jpg';
@@ -68,7 +68,7 @@ export const aboutData = {
   items: [
     {
       subtitle:
-        'I was Born in 1974 in Bulgaria to a musically inclined family. By age 4 I was already whistling, humming, and singing all the sounds around me.',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       subtitle1:
         'Since I was very young, I found out white noise caused me to ‘hear’ music and compose original pieces in my head that were big and grandiose. Symphonies of harmonies and instruments flooded my brain on a regular basis, and every car ride was a concert in my head. ',
       subtitle2:
