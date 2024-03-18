@@ -22,9 +22,9 @@ module.exports = {
       extend: {
         colors: {
           dark: '#111111',
-          header: '#01725A',
-          accent: '#ef8b00',
-          accent2: '#E3462A',
+          header: '#1D0000',
+          accent: '#790000',
+          accent2: '#FFA644',
           grey: {
             DEFAULT: '#555555',
           },
