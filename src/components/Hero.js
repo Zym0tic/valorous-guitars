@@ -18,16 +18,16 @@ const container = {
 const Hero = () => {
   const { subtitle, btnText, logo } = heroData;
   return (
-    <section className="bg-hero bg-cover bg-[center_right_-35rem] min-h-[100vh] md:bg-left lg:h-[100vh] bg-no-repeat lg:bg-top flex items-center">
+    <section className="bg-hero bg-cover min-h-[100vh] md:bg-left lg:h-[100vh] bg-no-repeat lg:bg-top flex items-center">
       <motion.div
         variants={container}
         initial="hidden"
         whileInView={"show"}
-        className="container mx-auto min-h-[40vh] lg:h-full flex items-center justify-center xl:justify-end"
+        className="container mx-auto min-h-[40vh] lg:h-full flex items-center justify-center xl:justify-start"
       >
         <div className="text-white text-center lg:text-left lg:max-w-[640px]">
           <motion.div variants={fadeIn("down")} className="pt-10">
-          <img className="w-[188px] h-[90px]" src={logo} alt="Valorous logo" />
+          <img className="w-[388px]" src={logo} alt="Valorous logo" />
           </motion.div>
           <motion.p
             variants={fadeIn("down")}

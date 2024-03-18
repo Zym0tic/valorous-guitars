@@ -30,7 +30,7 @@ module.exports = {
           },
         },
         backgroundImage: {
-          hero: "url('/src/img/hero/bg.jpg')",
+          hero: "url('/src/img/about/valimg.jpg')",
           about: "url('/src/img/about/image.png')",
         },
       },
