@@ -40,7 +40,7 @@ const Header = () => {
         {/* nav menu btn hidden desktop*/}
         <div
           onClick={() => setNavMobile(!navMobile)}
-          className="lg:hidden absolute right-[5%] bg-header text-dark p-2 rounded-md cursor-pointer"
+          className="lg:hidden absolute right-[5%] bg-header text-accent2 p-2 rounded-md cursor-pointer"
         >
           <TiThMenu className="text-3xl" />
         </div>
