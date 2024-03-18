@@ -5,7 +5,7 @@
 /* apply some general styles */
 @layer base {
   body {
-    @apply font-secondary text-lg text-dark  bg-[#015445];
+    @apply font-secondary text-lg text-accent2  bg-dark;
   }
   .section {
     @apply py-[40px] lg:py-[160px];
