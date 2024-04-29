@@ -18,7 +18,7 @@ const container = {
 const Hero = () => {
   const { subtitle, btnText, logo } = heroData;
   return (
-    <section className="bg-hero bg-cover min-h-[100vh] md:bg-left lg:h-[100vh] bg-no-repeat lg:bg-top flex items-center">
+    <section className="bg-hero bg-cover min-h-[100vh] bg-center lg:h-[100vh] bg-no-repeat lg:bg-top flex items-center">
       <motion.div
         variants={container}
         initial="hidden"
