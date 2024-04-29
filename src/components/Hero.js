@@ -30,7 +30,7 @@ const Hero = () => {
           <img className="w-[388px]" src={logo} alt="Valorous logo" />
           </motion.div>
           <motion.p
-            variants={fadeIn("down")}
+            variants={fadeIn("up")}
             className="hero-p mb-8 lg:mb-16 max-w-lg leading-relaxed"
           >
             {subtitle}
@@ -43,7 +43,7 @@ const Hero = () => {
             </Link>
           </motion.div>
           {/* Social media icons */}
-          <motion.div variants={fadeIn("down")} className="flex justify-center lg:justify-start mt-8">
+          <motion.div variants={fadeIn("up")} className="flex justify-center lg:justify-start mt-8">
             <a href="https://www.instagram.com/valorous_guitars/" target="_blank" rel="noopener noreferrer" className="text-white mx-2">
               <FaInstagram size={56} />
             </a>
