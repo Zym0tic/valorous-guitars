@@ -145,58 +145,113 @@ const GuitarForm = () => {
           />
         </div>
         <div className="mb-4">
-          <label htmlFor="FretBoardRadius" className="block text-gray-700">Fretboard Radius</label>
+          <label htmlFor="fretboardRadius" className="block text-gray-700">Fretboard Radius</label>
           <input
             type="text"
-            name="FretBoardRadius"
-            value={formData.FretBoardRadius}
+            name="fretboardRadius"
+            value={formData.fretboardRadius}
             onChange={handleChange}
             className="form-input mt-1 block w-full"
             placeholder="Enter fretboard Radius"
           />
         </div>
         <div className="mb-4">
-          <label htmlFor="Frets" className="block text-gray-700">Frets</label>
+          <label htmlFor="frets" className="block text-gray-700">Frets</label>
           <input
             type="text"
-            name="Frets"
-            value={formData.Frets}
+            name="frets"
+            value={formData.frets}
             onChange={handleChange}
             className="form-input mt-1 block w-full"
             placeholder="Enter frets type"
           />
         </div>
         <div className="mb-4">
-          <label htmlFor="Bridge" className="block text-gray-700">Bridge</label>
+          <label htmlFor="bridge" className="block text-gray-700">Bridge</label>
           <input
             type="text"
-            name="Bridge"
-            value={formData.Bridge}
+            name="bridge"
+            value={formData.bridge}
             onChange={handleChange}
             className="form-input mt-1 block w-full"
             placeholder="Enter bridge style"
           />
         </div>
         <div className="mb-4">
-          <label htmlFor="Nut" className="block text-gray-700">Nut</label>
+          <label htmlFor="nut" className="block text-gray-700">Nut</label>
           <input
             type="text"
-            name="Nut"
-            value={formData.Nut}
+            name="nut"
+            value={formData.nut}
             onChange={handleChange}
             className="form-input mt-1 block w-full"
             placeholder="Enter nut type"
           />
         </div>
         <div className="mb-4">
-          <label htmlFor="Tuners" className="block text-gray-700">Tuners</label>
+          <label htmlFor="tuners" className="block text-gray-700">Tuners</label>
           <input
             type="text"
-            name="Tuners"
-            value={formData.Tuners}
+            name="tuners"
+            value={formData.tuners}
             onChange={handleChange}
             className="form-input mt-1 block w-full"
             placeholder="Enter tuners type"
+          />
+        </div>
+        <div className="mb-4">
+          <label htmlFor="pickups" className="block text-gray-700">Pickups</label>
+          <input
+            type="text"
+            name="pickups"
+            value={formData.pickups}
+            onChange={handleChange}
+            className="form-input mt-1 block w-full"
+            placeholder="Enter pickups type"
+          />
+        </div>
+        <div className="mb-4">
+          <label htmlFor="controls" className="block text-gray-700">Controls</label>
+          <input
+            type="text"
+            name="controls"
+            value={formData.controls}
+            onChange={handleChange}
+            className="form-input mt-1 block w-full"
+            placeholder="Enter controls type"
+          />
+        </div>
+        <div className="mb-4">
+          <label htmlFor="jackPlate" className="block text-gray-700">Jack Plate</label>
+          <input
+            type="text"
+            name="jackPlate"
+            value={formData.jackPlate}
+            onChange={handleChange}
+            className="form-input mt-1 block w-full"
+            placeholder="Enter controls type"
+          />
+        </div>
+        <div className="mb-4">
+          <label htmlFor="sideDots" className="block text-gray-700">Side Dots</label>
+          <input
+            type="text"
+            name="sideDots"
+            value={formData.sideDots}
+            onChange={handleChange}
+            className="form-input mt-1 block w-full"
+            placeholder="luminlay, MOP, plastic.."
+          />
+        </div>
+        <div className="mb-4">
+          <label htmlFor="finishColor" className="block text-gray-700">Side Dots</label>
+          <input
+            type="text"
+            name="finishColor"
+            value={formData.finishColor}
+            onChange={handleChange}
+            className="form-input mt-1 block w-full"
+            placeholder="olympic white satin, cherry sunburst high gloss lacquer, clear oiled finish.."
           />
         </div>
         {/* Repeat this pattern for each input */}
