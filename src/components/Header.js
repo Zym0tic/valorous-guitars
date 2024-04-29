@@ -11,7 +11,7 @@ import { TiThMenu } from "react-icons/ti";
 
 const Header = () => {
   //destructure header data
-  const { logo } = headerData;
+  const { logo, } = headerData;
   //header state
   const [isActive, setIsActive] = useState(false);
   //nav mobile state
@@ -26,7 +26,7 @@ const Header = () => {
     <header
       className={`${
         isActive ? "h-[100px] lg:h-[110px] shadow-lg" : "h-[120px] lg:h-[150px]"
-      } fixed bg-header left-0 right-0 z-10 max-w-[1920px] w-full mx-auto transition-all duration-300`}
+      } fixed bg-headerImg left-0 right-0 z-10 max-w-[1920px] w-full mx-auto transition-all duration-300`}
     >
       <div className="flex justify-between items-center h-full pl-[50px] pr-[60px]">
         {/* logo */}
