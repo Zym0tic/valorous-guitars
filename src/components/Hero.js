@@ -45,7 +45,7 @@ const Hero = () => {
           {/* Social media icons */}
           <motion.div variants={fadeIn("down")} className="flex justify-center lg:justify-start mt-8">
             <a href="https://www.instagram.com/valorous_guitars/" target="_blank" rel="noopener noreferrer" className="text-white mx-2">
-              <FaInstagram size={32} />
+              <FaInstagram size={56} />
             </a>
           </motion.div>
         </div>
