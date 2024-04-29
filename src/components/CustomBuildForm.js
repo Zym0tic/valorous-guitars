@@ -141,7 +141,29 @@ const GuitarForm = () => {
             value={formData.scaleLength}
             onChange={handleChange}
             className="form-input mt-1 block w-full"
-            placeholder="Enter scale lengthvvfv"
+            placeholder="Enter scale length"
+          />
+        </div>
+        <div className="mb-4">
+          <label htmlFor="FretBoardRadius" className="block text-gray-700">Fretboard Radius</label>
+          <input
+            type="text"
+            name="FretBoardRadius"
+            value={formData.FretBoardRadius}
+            onChange={handleChange}
+            className="form-input mt-1 block w-full"
+            placeholder="Enter fretboard Radius"
+          />
+        </div>
+        <div className="mb-4">
+          <label htmlFor="Frets" className="block text-gray-700">Frets</label>
+          <input
+            type="text"
+            name="Frets"
+            value={formData.Frets}
+            onChange={handleChange}
+            className="form-input mt-1 block w-full"
+            placeholder="Enter frets type"
           />
         </div>
         {/* Repeat this pattern for each input */}
