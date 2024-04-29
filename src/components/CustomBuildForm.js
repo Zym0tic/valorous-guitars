@@ -166,6 +166,39 @@ const GuitarForm = () => {
             placeholder="Enter frets type"
           />
         </div>
+        <div className="mb-4">
+          <label htmlFor="Bridge" className="block text-gray-700">Bridge</label>
+          <input
+            type="text"
+            name="Bridge"
+            value={formData.Bridge}
+            onChange={handleChange}
+            className="form-input mt-1 block w-full"
+            placeholder="Enter bridge style"
+          />
+        </div>
+        <div className="mb-4">
+          <label htmlFor="Nut" className="block text-gray-700">Nut</label>
+          <input
+            type="text"
+            name="Nut"
+            value={formData.Nut}
+            onChange={handleChange}
+            className="form-input mt-1 block w-full"
+            placeholder="Enter nut type"
+          />
+        </div>
+        <div className="mb-4">
+          <label htmlFor="Tuners" className="block text-gray-700">Tuners</label>
+          <input
+            type="text"
+            name="Tuners"
+            value={formData.Tuners}
+            onChange={handleChange}
+            className="form-input mt-1 block w-full"
+            placeholder="Enter tuners type"
+          />
+        </div>
         {/* Repeat this pattern for each input */}
         <button type="submit" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Submit</button>
       </form>
