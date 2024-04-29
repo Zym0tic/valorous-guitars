@@ -7,7 +7,8 @@ import Nav from "./Nav";
 import NavMobile from "./NavMobile";
 // import Socials from "./Socials";
 //import icons
-import { TiThMenu } from "react-icons/ti";
+import { CiMenuBurger } from "react-icons/ci";
+
 
 const Header = () => {
   //destructure header data
@@ -26,7 +27,7 @@ const Header = () => {
     <header
       className={`${
         isActive ? "h-[100px] lg:h-[110px] shadow-lg" : "h-[120px] lg:h-[150px]"
-      } fixed bg-headerImg left-0 right-0 z-10 max-w-[1920px] w-full mx-auto transition-all duration-300`}
+      } fixed bg-headerImg bg-center left-0 right-0 z-10 max-w-[1920px] w-full mx-auto transition-all duration-400`}
     >
       <div className="flex justify-between items-center h-full pl-[50px] pr-[60px]">
         {/* logo */}
@@ -42,7 +43,7 @@ const Header = () => {
           onClick={() => setNavMobile(!navMobile)}
           className="lg:hidden absolute right-[5%] bg-header text-accent2 p-2 rounded-md cursor-pointer"
         >
-          <TiThMenu className="text-3xl" />
+          <CiMenuBurger className="text-3xl" />
         </div>
         {/* nav mobile */}
         <div

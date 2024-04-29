@@ -3,7 +3,7 @@ import { heroData } from "../data.js";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import { Link } from "react-router-dom";
-import { FaSpotify, FaInstagram, FaYoutube } from 'react-icons/fa';
+import { FaInstagram } from 'react-icons/fa';
 
 const container = {
   hidden: {},
