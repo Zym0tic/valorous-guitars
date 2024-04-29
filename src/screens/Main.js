@@ -11,7 +11,6 @@ import Tabs from '../components/Tabs';
 import Copyright from '../components/Copyright';
 import Home from '../components/Home';
 import ComingSoon from '../components/ComingSoon';
-import Discography from '../components/Discography';
 import TermsOfService from '../components/TermsOfService';
 import Contact from '../components/Contact';
 
@@ -29,7 +28,6 @@ function Main() {
           <Route path="/" element={<Home />} />
           <Route path="/videos" element={<WelcomeVid />} />
           <Route path="/images" element={<Images />} />
-          <Route path="/discography" element={<Discography />} />
           <Route path="/custombuildform" element={<CustomBuildForm />} />
           <Route path="/tabs" element={<Tabs />} />
           <Route path="/contact" element={<Contact />} />

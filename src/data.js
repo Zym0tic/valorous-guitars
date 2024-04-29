@@ -43,7 +43,7 @@ export const heroData = {
 export const navData = {
   items: [
     { href: '/main', name: 'Home' },
-    { href: 'discography', name: 'Discography' },
+    { href: 'custombuildform', name: 'Custom Builds' },
     { href: 'images', name: 'Images' },
     { href: 'videos', name: 'Videos' },
   ],
