@@ -44,14 +44,8 @@ const Hero = () => {
           </motion.div>
           {/* Social media icons */}
           <motion.div variants={fadeIn("down")} className="flex justify-center lg:justify-start mt-8">
-            <a href="https://open.spotify.com/artist/64yI5sRzbBp0M7vAaYearY" target="_blank" rel="noopener noreferrer" className="text-white mx-2">
-              <FaSpotify size={32} />
-            </a>
-            <a href="https://www.instagram.com/hvmane_official/" target="_blank" rel="noopener noreferrer" className="text-white mx-2">
+            <a href="https://www.instagram.com/valorous_guitars/" target="_blank" rel="noopener noreferrer" className="text-white mx-2">
               <FaInstagram size={32} />
-            </a>
-            <a href="https://www.youtube.com/@HVMANE_OFFICIAL" target="_blank" rel="noopener noreferrer" className="text-white mx-2">
-              <FaYoutube size={32} />
             </a>
           </motion.div>
         </div>
