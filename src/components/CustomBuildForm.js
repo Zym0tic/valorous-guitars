@@ -259,8 +259,53 @@ const GuitarForm = () => {
             placeholder="olympic white satin, cherry sunburst high gloss lacquer, clear oiled finish.."
           />
         </div>
-        {/* Repeat this pattern for each input */}
-        <button type="submit" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Submit</button>
+        <div className="mb-4">
+          <label htmlFor="hardwareColor" className="block text-gray-700">Hardware Color</label>
+          <input
+            type="text"
+            name="hardwareColor"
+            value={formData.hardwareColor}
+            onChange={handleChange}
+            className="form-input mt-1 block w-full"
+            placeholder="chrome, black, gold.."
+          />
+        </div>
+        <div className="mb-4">
+          <label htmlFor="binding" className="block text-gray-700">Binding</label>
+          <input
+            type="text"
+            name="binding"
+            value={formData.binding}
+            onChange={handleChange}
+            className="form-input mt-1 block w-full"
+            placeholder="white abs, curly maple, matching fretboard, etc.."
+          />
+        </div>
+        <div className="mb-4">
+          <label htmlFor="inlays" className="block text-gray-700">Inlays</label>
+          <input
+            type="text"
+            name="inlays"
+            value={formData.inlays}
+            onChange={handleChange}
+            className="form-input mt-1 block w-full"
+            placeholder="pearl dots, MOP blocks, shark fins.."
+          />
+        </div>
+        <div className="mb-4">
+          <label htmlFor="notes" className="block text-gray-700">Notes</label>
+          <p>Anything else you want. I won’t say yes to everything but doesn’t hurt to ask!</p>
+          <input
+            type="text"
+            name="notes"
+            value={formData.notes}
+            onChange={handleChange}
+            className="form-input mt-1 block w-full"
+            placeholder="Add notes"
+          />
+        </div>
+        <p>Please allow 1-3 business days to complete your quote. Thanks for inquiring!</p>
+        <button type="submit" className="bg-accent hover:bg-header text-accent2 font-bold py-2 px-4 rounded">Submit</button>
       </form>
     </div>
   );
