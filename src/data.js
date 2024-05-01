@@ -266,6 +266,16 @@ export const tabsData = {
   ],
 };
 
+// testimonials
+export const testimonials = [
+  {
+    authorText:
+      'I hired Lucas to build me a website in an effort to expand and navigate my brand. To be frank I barely gave him direction, but he was able to create for me a website that reflected my personality and aesthetic beautifully, based on my social media presence. Very happy with the out come. 10/10 would recommend',
+    authorName: 'Tara Zep',
+    authorPosition: 'Artist, Model, Wrestler',
+  },
+];
+
 export const footerData = {
   about: {
     title: 'HVMΛNE',
