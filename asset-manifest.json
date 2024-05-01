@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.72023f24.css",
+    "main.js": "/static/js/main.d98a88cd.js",
+    "static/media/bg.png": "/static/media/bg.1e00f034a0e8b6eea34f.png",
+    "static/media/valimg.jpg": "/static/media/valimg.cb6b42ce3894811d3810.jpg",
+    "static/media/ValorousLogo.svg": "/static/media/ValorousLogo.810f29ccf5ce9852bd1148ec1d29c8b8.svg",
+    "static/media/header-img.jpg": "/static/media/header-img.55d5167d88d7f643ef2d.jpg",
+    "index.html": "/index.html",
+    "main.72023f24.css.map": "/static/css/main.72023f24.css.map",
+    "main.d98a88cd.js.map": "/static/js/main.d98a88cd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72023f24.css",
+    "static/js/main.d98a88cd.js"
+  ]
+}
