@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.e68f4816.css",
-    "main.js": "/static/js/main.ec6fd6d8.js",
-    "static/media/bg.png": "/static/media/bg.1e00f034a0e8b6eea34f.png",
-    "static/media/valimg.jpg": "/static/media/valimg.cb6b42ce3894811d3810.jpg",
-    "static/media/ValorousLogo.svg": "/static/media/ValorousLogo.810f29ccf5ce9852bd1148ec1d29c8b8.svg",
-    "static/media/header-img.jpg": "/static/media/header-img.55d5167d88d7f643ef2d.jpg",
-    "index.html": "/index.html",
-    "main.e68f4816.css.map": "/static/css/main.e68f4816.css.map",
-    "main.ec6fd6d8.js.map": "/static/js/main.ec6fd6d8.js.map"
+    "main.css": "/valorous-guitars/static/css/main.462808cf.css",
+    "main.js": "/valorous-guitars/static/js/main.6adce747.js",
+    "static/media/bg.png": "/valorous-guitars/static/media/bg.1e00f034a0e8b6eea34f.png",
+    "static/media/valimg.jpg": "/valorous-guitars/static/media/valimg.cb6b42ce3894811d3810.jpg",
+    "static/media/ValorousLogo.svg": "/valorous-guitars/static/media/ValorousLogo.810f29ccf5ce9852bd1148ec1d29c8b8.svg",
+    "static/media/header-img.jpg": "/valorous-guitars/static/media/header-img.55d5167d88d7f643ef2d.jpg",
+    "index.html": "/valorous-guitars/index.html",
+    "main.462808cf.css.map": "/valorous-guitars/static/css/main.462808cf.css.map",
+    "main.6adce747.js.map": "/valorous-guitars/static/js/main.6adce747.js.map"
   },
   "entrypoints": [
-    "static/css/main.e68f4816.css",
-    "static/js/main.ec6fd6d8.js"
+    "static/css/main.462808cf.css",
+    "static/js/main.6adce747.js"
   ]
 }
