@@ -1,29 +1,6 @@
 import Logo from '../src/svg/ValorousLogo.svg';
 //import about photos
 import img1 from '../src/img/about/valimg.jpg';
-import img2 from '../src/img/about/1hristo-4430.jpg';
-import img3 from '../src/img/about/1hristo-4462.jpg';
-import img4 from '../src/img/about/1hristo-4497.jpg';
-import img5 from '../src/img/about/1hristo-4499.jpg';
-import img6 from '../src/img/about/1hristo-4506.jpg';
-import img7 from '../src/img/about/1hristo-8338.jpg';
-//import discography photos
-import todayEp from '../src/img/discography/today-ep.png';
-import deadDogsSingle from '../src/img/discography/dead-dogs-single.png';
-//import pdf's
-import pdf1 from '../src/pdf/Stay-Humane-Guitar.pdf';
-import pdf2 from '../src/pdf/Stay-Humane-Ukulele.pdf';
-import pdf3 from '../src/pdf/Dont Cry-Humane.pdf';
-import pdf4 from '../src/pdf/Black Horses-Humane-Capo.pdf';
-import pdf5 from '../src/pdf/Black Horses-Humane-Ukulele.pdf';
-import pdf6 from '../src/pdf/Black Horses-Humane-Concert Key.pdf';
-import pdf7 from '../src/pdf/Blue Pills ~ Humane ~ Guitar.pdf';
-import pdf8 from '../src/pdf/Blue Pills ~ Humane ~ Ukulele.pdf';
-import pdf9 from '../src/pdf/Dead Dogs _ Humane _ Guitar.pdf';
-import pdf10 from '../src/pdf/Dead Dogs _ Humane _ Guitar w.Capo.pdf';
-import pdf11 from '../src/pdf/Dead Dogs _ Humane _ Ukulele.pdf';
-import pdf12 from '../src/pdf/Today ~ Humane ~ Guitar.pdf';
-import pdf13 from '../src/pdf/Today ~ Humane ~ Ukulele.pdf';
 //import icons
 import { AiFillInstagram } from 'react-icons/ai';
 import { FaSpotify, FaYoutube } from 'react-icons/fa';
@@ -67,212 +44,17 @@ export const aboutData = {
 };
 
 export const slides = [
-  {
-    url: img4,
-  },
-  {
-    url: img5,
-  },
-  {
-    url: img6,
-  },
-  {
-    url: img7,
-  },
-  {
-    url: img1,
-  },
-  {
-    url: img2,
-  },
-  {
-    url: img3,
-  },
+
 ];
-
-export const discographyData = {
-  items: [
-    {
-      title: 'TODAY EP',
-      img: todayEp,
-      tracks: [
-        {
-          songtitle: 'Stay',
-          writer: 'Hvmane',
-          recordingEng: 'Blaine Misner',
-          masteringEng: 'Mike Monseur',
-          vocals: 'Hvmane, Mary Lankford',
-          guitar: 'Hvmane',
-          percussion: 'Blaine Minser',
-          bass: 'Blaine Misner',
-          keys: 'Blaine Misner',
-          arrangements: 'Hvmane, Blaine Minser',
-          composers: 'Hvmane',
-          cello: 'Erin Snedecor',
-          Studio: 'Cue Recording Studio',
-          label: 'Hvmane Records',
-          href: 'https://open.spotify.com/track/4GRbAOgK3mU0HLTF4BCtYw?si=94c3e7a92d3041bf',
-        },
-        {
-          songtitle: 'Blue Pills',
-          writer: 'Hvmane',
-          recordingEng: 'Blaine Misner',
-          masteringEng: 'Mike Monseur',
-          vocals: 'Hvmane',
-          guitar: 'Hvmane, Blaine Minser',
-          percussion: 'Blaine Minser',
-          bass: 'Blaine Minser',
-          keys: 'Blaine Minser',
-          accordion: 'Hvmane',
-          arrangements: 'Hvmane, Blaine Minser',
-          composers: 'Hvmane',
-          Studio: 'Cue Recording Studio',
-          label: 'Hvmane Records',
-          href: 'https://open.spotify.com/track/1IX5vNc6BmbpkbU1tEh3l6?si=1b95ba44fc794978',
-        },
-        {
-          songtitle: 'Today',
-          writer: 'Hvmane',
-          recordingEng: 'Blaine Misner',
-          masteringEng: 'Mike Monseur',
-          vocals: 'Hvmane',
-          guitar: 'Hvmane',
-          percussion: 'Blaine Minser',
-          bass: 'Blaine Minser',
-          key: 'Blaine Minser',
-          arrangements: 'Hvmane, Blaine Minser',
-          composers: 'Hvmane',
-          Studio: 'Cue Recording Studio',
-          label: 'Hvmane Records',
-          href: 'https://open.spotify.com/track/67A5FhB17IuV0X6kQKCW13?si=69654f65e82b4616',
-        },
-        {
-          songtitle: 'Black Horses',
-          writer: 'Hvmane',
-          recordingEng: 'Blaine Misner',
-          masteringEng: 'Mike Monseur',
-          vocals: 'Hvmane',
-          guitar: 'Hvmane, Blaine Minser',
-          percussion: 'Blaine Minser',
-          bass: 'Blaine Minser',
-          key: 'Blaine Minser',
-          arrangements: 'Hvmane, Blaine Minser',
-          composers: 'Hvmane',
-          Studio: 'Cue Recording Studio',
-          label: 'Hvmane Records',
-          href: 'https://open.spotify.com/track/7mAsYzWT7w2mUKU5BA5Z3v?si=55e674013d444073',
-        },
-        {
-          songtitle: "Don't Cry",
-          writer: 'Hvmane',
-          recordingEng: 'Blaine Misner',
-          masteringEng: 'Mike Monseur',
-          vocals: 'Hvmane, Mary Lankford',
-          guitar: 'Hvmane, Rhys',
-          percussion: 'Blaine Minser',
-          bass: 'Blaine Minser, Blade Ronetz',
-          key: 'Blaine Minser, Blade Ronetz',
-          arrangements: 'Hvmane, Blaine Minser',
-          composers: 'Hvmane',
-          cello: 'Erin Snedecor',
-          Studio: 'Cue Recording Studio',
-          label: 'Hvmane Records',
-          href: 'https://open.spotify.com/track/1A0URnZlju8qarn1stuZ7G?si=388a8beede914a20',
-        },
-      ],
-    },
-    {
-      title: 'DEAD DOGS (Single)',
-      img: deadDogsSingle,
-      tracks: [
-        {
-          songtitle: 'Dead Dogs',
-          writer: 'Hvmane',
-          recordingEng: 'Blaine Misner',
-          masteringEng: 'Mike Monseur',
-          vocals: 'Hvmane',
-          guitar: 'Hvmane, Blaine Minser',
-          percussion: 'Blaine Minser',
-          bass: 'Blaine Minser',
-          key: 'Blaine Minser',
-          arrangements: 'Hvmane, Blaine Minser',
-          composers: 'Hvmane',
-          whistle: 'Hvmane',
-          Studio: 'Cue Recording Studio',
-          label: 'Hvmane Records',
-          href: 'https://open.spotify.com/track/5YONFDgf0SJEyi7OrCvKSe?si=2508631c2c654c0b',
-        },
-      ],
-    },
-  ],
-};
-
-
-export const tabsData = {
-  sub: 'click the links to view PDF',
-  items: [
-    {
-      href: pdf4,
-      subtitle: 'Black Horses(Capo) PDF',
-    },
-    {
-      href: pdf6,
-      subtitle: 'Black Horses(concert Key) PDF',
-    },
-    {
-      href: pdf5,
-      subtitle: 'Black Horses(Ukulele) PDF',
-    },
-    {
-      href: pdf7,
-      subtitle: 'Blue Pills(Guitar) PDF',
-    },
-    {
-      href: pdf8,
-      subtitle: 'Blue Pills(Ukulele) PDF',
-    },
-    {
-      href: pdf9,
-      subtitle: 'Dead Dogs(Guitar) PDF',
-    },
-    {
-      href: pdf10,
-      subtitle: 'Dead Dogs(Capo) PDF',
-    },
-    {
-      href: pdf11,
-      subtitle: 'Dead Dogs(Ukulele) PDF',
-    },
-    {
-      href: pdf3,
-      subtitle: "Don't Cry(Guitar) PDF",
-    },
-    {
-      href: pdf1,
-      subtitle: 'Stay(Guitar) PDF',
-    },
-    {
-      href: pdf2,
-      subtitle: 'Stay(Ukulele) PDF',
-    },
-    {
-      href: pdf12,
-      subtitle: 'Today(Guitar) PDF',
-    },
-    {
-      href: pdf13,
-      subtitle: 'Today(Ukulele) PDF',
-    },
-  ],
-};
 
 // testimonials
 export const testimonials = [
   {
+    authorImg: img1,
     authorText:
-      'I hired Lucas to build me a website in an effort to expand and navigate my brand. To be frank I barely gave him direction, but he was able to create for me a website that reflected my personality and aesthetic beautifully, based on my social media presence. Very happy with the out come. 10/10 would recommend',
-    authorName: 'Tara Zep',
-    authorPosition: 'Artist, Model, Wrestler',
+      'Great to work with! Great communication, sent photos every step of the way. Beautiful work!',
+    authorName: 'Luke Nukem',
+    authorPosition: 'Guitarist, PSYCH-WAR',
   },
 ];
 

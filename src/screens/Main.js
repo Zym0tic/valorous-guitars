@@ -7,7 +7,6 @@ import Footer from '../components/Footer';
 import WelcomeVid from '../components/WelcomeVid';
 import Images from '../components/Images';
 import CustomBuildForm from '../components/CustomBuildForm'
-import Tabs from '../components/Tabs';
 import Copyright from '../components/Copyright';
 import Home from '../components/Home';
 import ComingSoon from '../components/ComingSoon';
@@ -29,7 +28,6 @@ function Main() {
           <Route path="/videos" element={<WelcomeVid />} />
           <Route path="/images" element={<Images />} />
           <Route path="/custombuildform" element={<CustomBuildForm />} />
-          <Route path="/tabs" element={<Tabs />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/termsofservice" element={<TermsOfService />} />
           <Route path="/webstore" element={<ComingSoon/>} />
