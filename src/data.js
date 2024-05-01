@@ -36,7 +36,7 @@ export const heroData = {
   title: 'HVMΛNE',
   subtitle:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.    ',
-  btnText: 'ENTER SITE',
+  btnText: 'ENTER',
   logo: Logo,
 };
 
@@ -51,16 +51,8 @@ export const navData = {
 
 export const socialData = [
   {
-    href: 'https://www.instagram.com/hvmane_official/',
+    href: 'https://www.instagram.com/valorous_guitars/',
     icon: <AiFillInstagram />,
-  },
-  {
-    href: 'https://spotify.link/H7FSWMF8ZDb',
-    icon: <FaSpotify />,
-  },
-  {
-    href: 'https://www.youtube.com/@HVMANE_OFFICIAL',
-    icon: <FaYoutube />,
   },
 ];
 
@@ -69,33 +61,7 @@ export const aboutData = {
     {
       subtitle:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      subtitle1:
-        'Since I was very young, I found out white noise caused me to ‘hear’ music and compose original pieces in my head that were big and grandiose. Symphonies of harmonies and instruments flooded my brain on a regular basis, and every car ride was a concert in my head. ',
-      subtitle2:
-        'At home, I was infused with the rock music of the 60’s and 70’s while growing up in the vibes of the 80’s and 90’s on the street. I loved all music. Original Bulgarian folklore had also left its mark with its magical rhythms, dances, and harmonies.',
-      subtitle3:
-        'By age 6 I had started playing my grandfather’s accordion and learning songs on my dad’s guitar. There was a tambourine at home, my mom’s melodica and harmonica, later electric pianos, I’d play anything that made a sound.',
       img: img1,
-    },
-    {
-      subtitle:
-        'I absolutely loved the guitar and by age 9 I transitioned to acoustic guitar as a main instrument and began taking lessons. I remember writing my first songs at age 10.',
-      subtitle1:
-        'I played lots of Spanish and Flamenco guitar in high school, while my exposure to musical influences continued to grow.',
-      subtitle2:
-        'I learned many languages, not all of them human. Music has always been a big part of my existence, connecting me with reality, and accompanying my life path with messages from within so deep, sometimes they take me decades to unravel.',
-      subtitle3:
-        "Through ups and ups and twists and turns in my 40's, I gave way to my soul, to my doggie, to HVMANE. Hundreds of poems, songs, and compositions descended upon me so hard and so fast. I was fully immersed. From some eternal abyss they came at me and sang me deep down into the sky.",
-      img: img2,
-    },
-    {
-      subtitle:
-        'I’ve always loved recording my music. Since a very young age, I played around with cassettes and reel-to-reel recorders. Eventually that love evolved into digital recording in home studios.',
-      subtitle1:
-        'By the start of the covid pandemic, I had written and composed so many songs, it started to get really heavy inside. The weight created a strong urge to record and release what I had written.',
-      subtitle2:
-        ' The covid lockdown brought an opportunity to focus on these songs and there began my quest to record them all. I met and collaborated with a very talented musical collective which we later dubbed ‘And The Mysteries’.',
-      img: img3,
     },
   ],
 };
