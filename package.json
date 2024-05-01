@@ -1,7 +1,7 @@
 {
   "name": "valorous-guitars",
   "version": "0.0.0",
-  "homepage": "https://hvmane.com",
+  "homepage": "https://zym0tic.github.io/valorous-guitars/",
   "private": true,
   "dependencies": {
     "emailjs-com": "^3.2.0",
