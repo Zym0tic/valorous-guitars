@@ -75,9 +75,7 @@ export const footerData = {
         name: 'Contact',
       },
       { href: '#/main/webstore', name: 'Webstore' },
-      { href: 'https://www.instagram.com/hvmane_official/', name: <AiFillInstagram /> },
-      { href: 'https://www.youtube.com/@HVMANE_OFFICIAL', name: <FaYoutube /> },
-      { href: 'https://spotify.link/H7FSWMF8ZDb', name: <FaSpotify /> },
+      { href: 'https://www.instagram.com/valorous_guitars/', name: <AiFillInstagram /> },
     ],
   },
 };
@@ -91,7 +89,7 @@ export const contactData = {
         'Send us an email if you would like to get in contact',
       email: {
         icon: 'email:',
-        address: 'hvmane@gmail.com',
+        address: 'valorousguitars@gmail.com',
       },
       link: 'Get location',
     },

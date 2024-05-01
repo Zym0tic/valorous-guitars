@@ -44,12 +44,8 @@ const Contact = () => {
               const { title, subtitle, email } = item;
               return (
                 <div key={index}>
-                  {/* title */}
-                  <div className="font-primary uppercase text-xl mb-3">
-                    {title}
-                  </div>
                   {/* subtitle */}
-                  <div className="mb-6 text-dark">
+                  <div className="mb-6 text-accent">
                     {subtitle}
                   </div>
                   {/* address, phone and email */}
