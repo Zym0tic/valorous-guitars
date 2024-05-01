@@ -9,7 +9,7 @@ const Nav = () => {
   const { items } = navData;
   return (
     <nav>
-      <ul className="flex gap-x-[58px] text-accent">
+      <ul className="flex gap-x-[58px] text-accent font-bold">
         {items.map((item, index) => {
           return (
             <li key={index}>
