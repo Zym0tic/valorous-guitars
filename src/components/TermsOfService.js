@@ -4,7 +4,7 @@ function TermsOfService() {
   return (
     <section className="container mx-auto py-8 lg:py-16 px-4 lg:px-0 pt-[150px] lg:pt-[190px]">
       <div className="font-primary max-w-3xl mx-auto">
-        <h1 className="text-3xl lg:text-4xl font-bold text-accent mb-6 lg:mb-10">Terms of Service for hvmane.com</h1>
+        <h1 className="text-3xl lg:text-4xl font-bold text-accent mb-6 lg:mb-10">Terms of Service for xxxxxx</h1>
         <div className="space-y-10">
           <div>
             <h2 className="text-2xl lg:text-3xl font-bold">1. Introduction</h2>
