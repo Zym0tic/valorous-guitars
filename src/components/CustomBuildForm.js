@@ -105,20 +105,23 @@ const GuitarForm = () => {
             <option value="reversed">Reversed</option>
           </select>
         </div>
-
         <div className="mb-4">
           <label htmlFor="neckConstruction" className="block text-gray-700">
             Neck Construction
           </label>
-          <input
-            type="text"
+          <select
             id="neckConstruction"
             name="neckConstruction"
             value={formData.neckConstruction}
             onChange={handleChange}
-            className="form-input mt-1 block w-full bg-accent"
-            placeholder="Enter neck construction"
-          />
+            className="form-select mt-1 block w-full bg-accent"
+          >
+            <option value="">Select Neck Construction</option>
+            <option value="bolt-on">Bolt-on</option>
+            <option value="neck-thru">Neck-thru</option>
+            <option value="set-neck">Set Neck</option>
+            {/* Add more options as needed */}
+          </select>
         </div>
         <div className="mb-4">
           <label htmlFor="numStrings" className="block text-gray-700">
@@ -323,27 +326,36 @@ const GuitarForm = () => {
           <label htmlFor="binding" className="block text-gray-700">
             Binding
           </label>
-          <input
-            type="text"
+          <select
+            id="binding"
             name="binding"
             value={formData.binding}
             onChange={handleChange}
-            className="form-input mt-1 block w-full bg-accent"
-            placeholder="white abs, curly maple, matching fretboard, etc.."
-          />
+            className="form-select mt-1 block w-full bg-accent"
+          >
+            <option value="">Select Binding</option>
+            <option value="white abs">White ABS</option>
+            <option value="curly maple">Curly Maple</option>
+            <option value="matching fretboard">Matching Fretboard</option>
+          </select>
         </div>
+
         <div className="mb-4">
           <label htmlFor="inlays" className="block text-gray-700">
             Inlays
           </label>
-          <input
-            type="text"
+          <select
+            id="inlays"
             name="inlays"
             value={formData.inlays}
             onChange={handleChange}
-            className="form-input mt-1 block w-full bg-accent"
-            placeholder="pearl dots, MOP blocks, shark fins.."
-          />
+            className="form-select mt-1 block w-full bg-accent"
+          >
+            <option value="">Select Inlays</option>
+            <option value="pearl dots">Pearl Dots</option>
+            <option value="MOP blocks">MOP Blocks</option>
+            <option value="shark fins">Shark Fins</option>
+          </select>
         </div>
         <div className="mb-4">
           <label htmlFor="notes" className="block text-gray-700">
