@@ -19,7 +19,7 @@ const Footer = () => {
                   const { href, name } = item;
                   return (
                     <li key={index}>
-                      <a className='hover:border-b-2 hover:border-dark transition duration-300 cursor-pointer flex justify-center' href={href}>
+                      <a className='hover:border-b-2 hover:border-dark transition duration-300 cursor-pointer flex xl:justify-center' href={href}>
                         {name}
                       </a>
                     </li>
