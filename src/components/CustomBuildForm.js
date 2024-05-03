@@ -298,30 +298,42 @@ const GuitarForm = () => {
         </div>
         <div className="mb-4">
           <label htmlFor="finishColor" className="block text-gray-700">
-            Side Dots
+            Finish Color
           </label>
-          <input
-            type="text"
+          <select
+            id="finishColor"
             name="finishColor"
             value={formData.finishColor}
             onChange={handleChange}
-            className="form-input mt-1 block w-full bg-accent"
-            placeholder="olympic white satin, cherry sunburst high gloss lacquer, clear oiled finish.."
-          />
+            className="form-select mt-1 block w-full bg-accent"
+          >
+            <option value="">Select Finish Color</option>
+            <option value="olympic white satin">Olympic White Satin</option>
+            <option value="cherry sunburst high gloss lacquer">
+              Cherry Sunburst High Gloss Lacquer
+            </option>
+            <option value="clear oiled finish">Clear Oiled Finish</option>
+          </select>
         </div>
+
         <div className="mb-4">
           <label htmlFor="hardwareColor" className="block text-gray-700">
             Hardware Color
           </label>
-          <input
-            type="text"
+          <select
+            id="hardwareColor"
             name="hardwareColor"
             value={formData.hardwareColor}
             onChange={handleChange}
-            className="form-input mt-1 block w-full bg-accent"
-            placeholder="chrome, black, gold.."
-          />
+            className="form-select mt-1 block w-full bg-accent"
+          >
+            <option value="">Select Hardware Color</option>
+            <option value="chrome">Chrome</option>
+            <option value="black">Black</option>
+            <option value="gold">Gold</option>
+          </select>
         </div>
+
         <div className="mb-4">
           <label htmlFor="binding" className="block text-gray-700">
             Binding
