@@ -4,7 +4,6 @@ import img1 from '../src/img/about/valimg.jpg';
 import img2 from "../src/img/finishedguitars/2FADAB6C-9C19-4C5A-BFCF-281752F664DA.png"
 //import icons
 import { AiFillInstagram } from 'react-icons/ai';
-import { FaSpotify, FaYoutube } from 'react-icons/fa';
 
 export const headerData = {
   logo: Logo,
