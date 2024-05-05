@@ -1,6 +1,7 @@
 import Logo from '../src/svg/ValorousLogo.svg';
 //import about photos
 import img1 from '../src/img/about/valimg.jpg';
+import img2 from "../src/img/finishedguitars/2FADAB6C-9C19-4C5A-BFCF-281752F664DA.png"
 //import icons
 import { AiFillInstagram } from 'react-icons/ai';
 import { FaSpotify, FaYoutube } from 'react-icons/fa';
@@ -51,6 +52,27 @@ export const slides = [
 export const testimonials = [
   {
     authorImg: img1,
+    authorText:
+      '"Great to work with! Great communication, sent photos every step of the way. Beautiful work!"',
+    authorName: 'Luke Nukem',
+    authorPosition: 'Guitarist, PSYCH-WAR',
+  },
+  {
+    authorImg: img2,
+    authorText:
+      '"Great to work with! Great communication, sent photos every step of the way. Beautiful work!"',
+    authorName: 'Luke Nukem',
+    authorPosition: 'Guitarist, PSYCH-WAR',
+  },
+  {
+    authorImg: img1,
+    authorText:
+      '"Great to work with! Great communication, sent photos every step of the way. Beautiful work!"',
+    authorName: 'Luke Nukem',
+    authorPosition: 'Guitarist, PSYCH-WAR',
+  },
+  {
+    authorImg: img2,
     authorText:
       '"Great to work with! Great communication, sent photos every step of the way. Beautiful work!"',
     authorName: 'Luke Nukem',

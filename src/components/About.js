@@ -5,7 +5,7 @@ const About = () => {
   const { items } = aboutData;
 
   return (
-    <section className="pt-[130px] lg:pt-[170px] lg:py-16" name="about">
+    <section className="pt-[130px] lg:pt-[170px]" name="about">
       <div className="container mx-auto">
         <div className="flex items-center justify-center"> {/* Center items horizontally */}
           <div className="flex-1 h-full xl:mt-30">
