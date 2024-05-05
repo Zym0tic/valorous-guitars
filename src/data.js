@@ -52,7 +52,7 @@ export const testimonials = [
   {
     authorImg: img1,
     authorText:
-      'Great to work with! Great communication, sent photos every step of the way. Beautiful work!',
+      '"Great to work with! Great communication, sent photos every step of the way. Beautiful work!"',
     authorName: 'Luke Nukem',
     authorPosition: 'Guitarist, PSYCH-WAR',
   },

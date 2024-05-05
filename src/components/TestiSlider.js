@@ -22,11 +22,11 @@ const TestiSlider = () => {
               <div className='w-auto h-auto'>
                 <img className='lg:w-48 ' src={authorImg} alt='' />
               </div>
-              <div className='max-w-lg'>
-                <p className='text-lg text-gray-800 italic'>{authorText}</p>
+              <div className='max-w-lg text-accent'>
+                <p className='font-semibold italic'>{authorText}</p>
                 <div className='mt-4'>
-                  <p className='text-xl font-semibold text-gray-900'>{authorName}</p>
-                  <p className='text-lg text-gray-700'>{authorPosition}</p>
+                  <p className='text-xl font-semibold'>{authorName}</p>
+                  <p className='text-lg'>{authorPosition}</p>
                 </div>
               </div>
             </div>
