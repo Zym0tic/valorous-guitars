@@ -7,7 +7,7 @@ function Home() {
   return (
     <div>
         <About />
-        {/* <Testimonials /> */}
+        <Testimonials />
         <Socials />
     </div>
   )

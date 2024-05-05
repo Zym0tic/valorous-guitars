@@ -1,64 +1,39 @@
 import React from 'react';
-
-// testimonials data
-import { testimonials } from '../data';
-
-// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
 import '../swiper.css';
-
-// import required modules
 import { Autoplay, Pagination } from 'swiper';
-
+import { testimonials } from '../data';
 
 const TestiSlider = () => {
-
   return (
-    <>
-      <Swiper
-        pagination={{
-          clickable: true,
-        }}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
-        modules={[Autoplay, Pagination]}
-        className='mySwiper'
-      >
-        {testimonials.map((item, index) => {
-          const { authorImg, authorText, authorName, authorPosition } = item;
-          return (
-            <SwiperSlide key={index}>
-              <div
-                className='flex flex-col lg:flex-row gap-12 lg:gap-32'
-              >
-                <div
-                  className='w-48 h-48 lg:w-[328px] lg:h-[328px]'
-                >
-                  <img className='rounded-2xl' src={authorImg} alt='' />
-                </div>
-                <div
-                  className='flex flex-col max-w-3xl'
-                >
-                  <h5 className='font-body text-2xl mb-8 italic font-normal'>
-                    {authorText}
-                  </h5>
-                  <div>
-                    <p className='text-lg text-dark'>{authorName}</p>
-                    <p>{authorPosition}</p>
-                  </div>
+    <Swiper
+      pagination={{ clickable: true }}
+      autoplay={{ delay: 2500, disableOnInteraction: false }}
+      modules={[Autoplay, Pagination]}
+      className='mySwiper'
+    >
+      {testimonials.map((item, index) => {
+        const { authorImg, authorText, authorName, authorPosition } = item;
+        return (
+          <SwiperSlide key={index}>
+            <div className='flex items-center justify-center gap-6 lg:gap-12'>
+              <div className='w-auto h-auto'>
+                <img className='lg:w-48 ' src={authorImg} alt='' />
+              </div>
+              <div className='max-w-lg'>
+                <p className='text-lg text-gray-800 italic'>{authorText}</p>
+                <div className='mt-4'>
+                  <p className='text-xl font-semibold text-gray-900'>{authorName}</p>
+                  <p className='text-lg text-gray-700'>{authorPosition}</p>
                 </div>
               </div>
-            </SwiperSlide>
-          );
-        })}
-      </Swiper>
-    </>
+            </div>
+          </SwiperSlide>
+        );
+      })}
+    </Swiper>
   );
 };
 
