@@ -120,9 +120,9 @@ const GuitarForm = () => {
             <option value="bolt-on">Bolt-on</option>
             <option value="neck-thru">Neck-thru</option>
             <option value="set-neck">Set Neck</option>
-            {/* Add more options as needed */}
           </select>
         </div>
+
         <div className="mb-4">
           <label htmlFor="numStrings" className="block text-gray-700">
             Number of Strings
@@ -137,23 +137,28 @@ const GuitarForm = () => {
             placeholder="Enter number of strings"
           />
         </div>
+
         <div className="mb-4">
           <label htmlFor="neckProfile" className="block text-gray-700">
             Neck Profile
           </label>
-          <input
-            type="text"
+          <select
             id="neckProfile"
             name="neckProfile"
             value={formData.neckProfile}
             onChange={handleChange}
-            className="form-input mt-1 block w-full bg-accent"
-            placeholder="Enter neck profile"
-          />
+            className="form-select mt-1 block w-full bg-accent"
+          >
+            <option value="">Select Neck Profile</option>
+            <option value="Slim C">Slim C</option>
+            <option value="Asymmetrical">Asymmetrical</option>
+            <option value="Baseball bat">Baseball bat</option>
+          </select>
         </div>
+
         <div className="mb-4">
           <label htmlFor="woodSelection" className="block text-gray-700">
-            Wood Selection
+            Wood Selection (Body/Neck/Fretboard/etc.)
           </label>
           <input
             type="text"
@@ -209,15 +214,20 @@ const GuitarForm = () => {
           <label htmlFor="bridge" className="block text-gray-700">
             Bridge
           </label>
-          <input
-            type="text"
+          <select
+            id="bridge"
             name="bridge"
             value={formData.bridge}
             onChange={handleChange}
-            className="form-input mt-1 block w-full bg-accent"
-            placeholder="Enter bridge style"
-          />
+            className="form-select mt-1 block w-full bg-accent"
+          >
+            <option value="">Select Bridge</option>
+            <option value="Floyd Rose">Floyd Rose</option>
+            <option value="Kahler">Kahler</option>
+            <option value="Tune-o-matic">Tune-o-matic</option>
+          </select>
         </div>
+
         <div className="mb-4">
           <label htmlFor="nut" className="block text-gray-700">
             Nut
@@ -287,15 +297,20 @@ const GuitarForm = () => {
           <label htmlFor="sideDots" className="block text-gray-700">
             Side Dots
           </label>
-          <input
-            type="text"
+          <select
+            id="sideDots"
             name="sideDots"
             value={formData.sideDots}
             onChange={handleChange}
-            className="form-input mt-1 block w-full bg-accent"
-            placeholder="luminlay, MOP, plastic.."
-          />
+            className="form-select mt-1 block w-full bg-accent"
+          >
+            <option value="">Select Side Dots</option>
+            <option value="luminlay">Luminlay</option>
+            <option value="MOP">Mother of Pearl (MOP)</option>
+            <option value="plastic">Plastic</option>
+          </select>
         </div>
+
         <div className="mb-4">
           <label htmlFor="finishColor" className="block text-gray-700">
             Finish Color
