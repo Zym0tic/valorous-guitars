@@ -80,7 +80,7 @@ const GuitarForm = () => {
           If interested in a custom build, the best and most accurate way for me to quote you is by filling out this form. I take a more personalized, conversational approach to the design process. This allows me to fully understand your concept and build you the best possible instrument. If you’re unsure about any certain specifications, we can discuss options further or feel free to leave it to dealers choice, I will make my best recommendations.
         </p>
       </div>
-      <form onSubmit={handleSubmit} className="max-w-md mx-auto">
+      <form onSubmit={handleSubmit} className="max-w-md mx-auto pb-7">
         {renderSelectField("instrument", ["Guitar", "Bass"])}
         {renderTextField("bodyStyle", "V, super strat, explorer..")}
         {renderSelectField("headstockStyle", ["6-inline", "3+3", "Reversed"])}
@@ -103,7 +103,7 @@ const GuitarForm = () => {
         {renderSelectField("binding", ["White ABS", "Curly Maple", "Matching Fretboard"])}
         {renderSelectField("inlays", ["Pearl Dots", "MOP Blocks", "Shark Fins"])}
         {renderTextField("notes", "Add notes")}
-        <p>Please allow 1-3 business days to complete your quote. Thanks for inquiring!</p>
+        <p className='py-6'>Please allow 1-3 business days to complete your quote. Thanks for inquiring!</p>
         <button type="submit" className="bg-accent hover:bg-header text-accent2 font-bold py-2 px-4 rounded">Submit</button>
       </form>
     </div>
