@@ -102,7 +102,7 @@ const GuitarForm = () => {
         {renderSelectField("hardwareColor", ["Chrome", "Black", "Gold"])}
         {renderSelectField("binding", ["White ABS", "Curly Maple", "Matching Fretboard"])}
         {renderSelectField("inlays", ["Pearl Dots", "MOP Blocks", "Shark Fins"])}
-        <p>Anything else you want. I won’t say yes to everything but doesn’t hurt to ask!</p>
+        <p className='py-6'>Anything else you want. I won’t say yes to everything but doesn’t hurt to ask!</p>
         {renderTextField("notes", "Add notes")}
         <p className='py-6'>Please allow 1-3 business days to complete your quote. Thanks for inquiring!</p>
         <button type="submit" className="bg-accent hover:bg-header text-accent2 font-bold py-2 px-4 rounded">Submit</button>
