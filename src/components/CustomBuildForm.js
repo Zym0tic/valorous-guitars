@@ -90,11 +90,11 @@ const GuitarForm = () => {
         {renderTextField("woodSelection", "Enter wood selection")}
         {renderTextField("scaleLength", "Enter scale length")}
         {renderTextField("fretboardRadius", "Enter fretboard Radius")}
-        {renderTextField("frets", "Enter frets type")}
+        {renderTextField("frets (Size, material, amount)", "Enter frets type")}
         {renderSelectField("bridge", ["Floyd Rose", "Kahler", "Tune-o-matic"])}
-        {renderTextField("nut", "Enter nut type")}
+        {renderSelectField("nut", ["TUSQ XL 1-11/16”", "Lok-N-Roll", "unbleached bone 1-5/8”"])}
         {renderSelectField("tuners", ["Hipshot open gears", "Grover vintage", "gotoh locking tuners"])}
-        {renderTextField("pickups", "Enter pickups type")}
+        {renderSelectField("pickups", ["EMG 57/66", "Seymour Duncan JB/‘59", "Single Bridge Super Distortion"])}
         {renderTextField("controls", "Enter controls type")}
         {renderTextField("jackPlate", "Enter jack plate type")}
         {renderSelectField("sideDots", ["Luminlay", "Mother of Pearl (MOP)", "Plastic"])}
