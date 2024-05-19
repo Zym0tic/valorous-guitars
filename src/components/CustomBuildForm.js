@@ -7,8 +7,10 @@ const GuitarForm = () => {
     headstockStyle: '',
     neckConstruction: '',
     numStrings: '',
+    orientation: '',
     neckProfile: '',
-    woodSelection: '',
+    bodyWood: '',
+    neckWood: '',
     scaleLength: '',
     fretboardRadius: '',
     frets: '',
@@ -82,12 +84,16 @@ const GuitarForm = () => {
       </div>
       <form onSubmit={handleSubmit} className="max-w-md mx-auto pb-7">
         {renderSelectField("instrument", ["Guitar", "Bass"])}
-        {renderTextField("bodyStyle", "V, super strat, explorer..")}
-        {renderSelectField("headstockStyle", ["6-inline", "3+3", "Reversed"])}
+        {renderSelectField("bodyStyle", ["Morgul-Blade", "Stormbringer", "Warmachine", "Other"])}
+        {renderSelectField("headstockStyle", ["Morgul-Blade", "Stormbringer", "Warmachine", "Other"])}
         {renderSelectField("neckConstruction", ["Bolt-on", "Neck-thru", "Set Neck"])}
-        {renderTextField("numStrings", "Enter number of strings")}
-        {renderSelectField("neckProfile", ["Slim C", "Asymmetrical", "Baseball bat"])}
-        {renderTextField("woodSelection", "Enter wood selection")}
+        {renderSelectField("numStrings", ["4 (Bass)", "5 (Bass)", "6 (Guitar)", "7 (guitar)"])}
+        {renderSelectField("orientation", ["Right", "Left"])}
+        {renderSelectField("neckProfile", ["Slim C", "Medium C", "Fat C", "Speed", "Medium V", "Asymmetrical"])}
+        {renderSelectField("bodyWood", ["Alder", "Ash", "Black Limba", "Mahogany", "Walnut"])}
+        {renderSelectField("neckWood", ["Maple", "Roasted Maple", "Mahogany"])}
+        {renderSelectField("fretboardWood", ["Ebony", "Rosewood", "Maple"])}
+        {renderSelectField("neckConstruction", ["1 piece", "3 Piece", "5 Piece"])}
         {renderTextField("scaleLength", "Enter scale length")}
         {renderTextField("fretboardRadius", "Enter fretboard Radius")}
         {renderTextField("frets (Size, material, amount)", "Enter frets type")}
