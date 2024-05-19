@@ -28,12 +28,29 @@ const GuitarForm = () => {
     notes: '',
   });
 
+  const [otherFields, setOtherFields] = useState({
+    bodyStyle: false,
+    headstockStyle: false,
+  });
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
       ...formData,
       [name]: value,
     });
+
+    if (value === 'Other') {
+      setOtherFields({
+        ...otherFields,
+        [name]: true,
+      });
+    } else if (otherFields[name]) {
+      setOtherFields({
+        ...otherFields,
+        [name]: false,
+      });
+    }
   };
 
   const handleSubmit = (e) => {
@@ -57,6 +74,7 @@ const GuitarForm = () => {
           <option key={option} value={option}>{option}</option>
         ))}
       </select>
+      {otherFields[fieldName] && renderTextField(`${fieldName}Other`, `Enter ${fieldName} details`)}
     </div>
   );
 
@@ -94,8 +112,8 @@ const GuitarForm = () => {
         {renderSelectField("neckWood", ["Maple", "Roasted Maple", "Mahogany"])}
         {renderSelectField("fretboardWood", ["Ebony", "Rosewood", "Maple"])}
         {renderSelectField("neckConstruction", ["1 piece", "3 Piece", "5 Piece"])}
-        {renderTextField("scaleLength", "Enter scale length")}
-        {renderTextField("fretboardRadius", "Enter fretboard Radius")}
+        {renderSelectField("scaleLength", ["24.75\"", "25.5\"", "28.5\"", "30\"", "34\""])}
+        {renderSelectField("fretboardRadius", ["10\"", "12\"", "14\"", "10\"-14\" Compound", "12\"-16\" Compound"])}
         {renderTextField("frets (Size, material, amount)", "Enter frets type")}
         {renderSelectField("bridge", ["Floyd Rose", "Kahler", "Tune-o-matic"])}
         {renderSelectField("nut", ["TUSQ XL 1-11/16”", "Lok-N-Roll", "unbleached bone 1-5/8”"])}
@@ -118,3 +136,4 @@ const GuitarForm = () => {
 };
 
 export default GuitarForm;
+
