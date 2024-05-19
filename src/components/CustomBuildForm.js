@@ -74,7 +74,9 @@ const GuitarForm = () => {
           <option key={option} value={option}>{option}</option>
         ))}
       </select>
-      {otherFields[fieldName] && renderTextField(`${fieldName}Other`, `Enter ${fieldName} details`)}
+      <div className='mt-4'>
+      {otherFields[fieldName] && renderTextField(`Enter ${fieldName}`, `Enter ${fieldName} details`)}
+      </div>
     </div>
   );
 
@@ -96,9 +98,6 @@ const GuitarForm = () => {
   return (
     <div className="container mx-auto px-4 pt-[130px] lg:pt-[170px]">
       <div className="py-7">
-        <p>
-          If interested in a custom build, the best and most accurate way for me to quote you is by filling out this form. I take a more personalized, conversational approach to the design process. This allows me to fully understand your concept and build you the best possible instrument. If you’re unsure about any certain specifications, we can discuss options further or feel free to leave it to dealers choice, I will make my best recommendations.
-        </p>
       </div>
       <form onSubmit={handleSubmit} className="max-w-md mx-auto pb-7">
         {renderSelectField("instrument", ["Guitar", "Bass"])}
