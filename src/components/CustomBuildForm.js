@@ -221,7 +221,7 @@ const GuitarForm = () => {
           'Pickup Details',
           'Please enter more details',
         )}
-        {renderTextField('controls', ' (Volume, Tone, Switches)', 'Enter controls type')}
+        {renderTextField('controls', 'Controls (Volume, Tone, Switches)', 'Enter controls type')}
         {renderTextField('jackPlate', 'Jackplate style and location', 'Enter details here')}
         {renderSelectField('sideDots', 'Side Dots', [
           'Luminlay',
@@ -242,8 +242,8 @@ const GuitarForm = () => {
           'Black',
           'Gold',
         ])}
-        {renderTextField('binding', 'Binding (optional)', 'If yes please describe')}
-        {renderTextField('inlays', 'Inlays (optional)', 'If yes please describe')}
+        {renderTextField('binding', 'Binding (optional)*', 'If yes please describe')}
+        {renderTextField('inlays', 'Inlays (optional)*', 'If yes please describe')}
         <p className="pt-6">
           Anything else you want. I won’t say yes to everything but doesn’t hurt
           to ask!
