@@ -79,7 +79,7 @@ const GuitarForm = () => {
         ))}
       </select>
       <div className='mt-4'>
-      {otherFields[fieldName] && renderTextField(`Enter ${fieldName}`, `Enter ${fieldName} details`)}
+      {otherFields[fieldName] && renderTextField(``, `Enter ${fieldName} details`)}
       </div>
     </div>
   );
