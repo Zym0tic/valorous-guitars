@@ -113,11 +113,14 @@ const GuitarForm = () => {
         {renderSelectField("neckConstruction", ["1 piece", "3 Piece", "5 Piece"])}
         {renderSelectField("scaleLength", ["24.75\"", "25.5\"", "28.5\"", "30\"", "34\""])}
         {renderSelectField("fretboardRadius", ["10\"", "12\"", "14\"", "10\"-14\" Compound", "12\"-16\" Compound"])}
-        {renderTextField("frets (Size, material, amount)", "Enter frets type")}
-        {renderSelectField("bridge", ["Floyd Rose", "Kahler", "Tune-o-matic"])}
-        {renderSelectField("nut", ["TUSQ XL 1-11/16”", "Lok-N-Roll", "unbleached bone 1-5/8”"])}
+        {renderSelectField("fretAmmount", ["22", "24", "27"])}
+        {renderSelectField("fretSize", ["Medium", "Jumbo", "Super Jumbo"])}
+        {renderSelectField("fretMaterial", ["Nickel Silver", "Stainless Steel", "Evo-Gold"])}
+        {renderSelectField("bridge", ["Floyd Rose Original Tremolo", "Hipshot Fixed", "Hipshot Tone-A-Matic", "Kahler Quad Fixed", "Kahler 2300/7300"])}
+        {renderSelectField("nut", ["TUSQ XL", "Lok-N-Roll", "Floyd Locking Nut", "Bone"])}
         {renderSelectField("tuners", ["Hipshot open gears", "Grover vintage", "gotoh locking tuners"])}
-        {renderSelectField("pickups", ["EMG 57/66", "Seymour Duncan JB/‘59", "Single Bridge Super Distortion"])}
+        {renderSelectField("pickups", ["EMG", "Seymour Duncan", "Dimarzio", "Bare Knuckle"])}
+        {renderTextField("pickupsDetails", "Please enter more details")}
         {renderTextField("controls", "Enter controls type")}
         {renderTextField("jackPlate", "Enter jack plate type")}
         {renderSelectField("sideDots", ["Luminlay", "Mother of Pearl (MOP)", "Plastic"])}
