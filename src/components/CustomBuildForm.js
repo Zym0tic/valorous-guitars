@@ -27,6 +27,7 @@ const GuitarForm = () => {
     jackPlate: '',
     sideDots: '',
     finishColor: '',
+    finish: '',
     hardwareColor: '',
     binding: '',
     inlays: '',
@@ -40,27 +41,26 @@ const GuitarForm = () => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData({
-      ...formData,
+    setFormData((prevData) => ({
+      ...prevData,
       [name]: value,
-    });
+    }));
 
     if (value === 'Other') {
-      setOtherFields({
-        ...otherFields,
+      setOtherFields((prevFields) => ({
+        ...prevFields,
         [name]: true,
-      });
+      }));
     } else if (otherFields[name]) {
-      setOtherFields({
-        ...otherFields,
+      setOtherFields((prevFields) => ({
+        ...prevFields,
         [name]: false,
-      });
+      }));
     }
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Here you can handle the form submission, for example, send the data to a server
     console.log(formData);
   };
 
@@ -85,7 +85,7 @@ const GuitarForm = () => {
       </select>
       <div className="mt-4">
         {otherFields[fieldName] &&
-          renderTextField(``, `Enter ${label} details`)}
+          renderTextField(`${fieldName}Other`, `${label} (Other)`, `Enter ${label} details`)}
       </div>
     </div>
   );
@@ -101,7 +101,7 @@ const GuitarForm = () => {
         name={fieldName}
         value={formData[fieldName]}
         onChange={handleChange}
-        className="form-input mt-1 block w-full bg-accent text-accent2"
+        className="form-input mt-1 block w-full bg-accent placeholder-accent2"
         placeholder={placeholder}
       />
     </div>
@@ -161,6 +161,7 @@ const GuitarForm = () => {
           'Rosewood',
           'Maple',
         ])}
+        {renderTextField('top', 'Top (optional)*', 'If yes please describe')}
         {renderSelectField('neckConstruction', 'Neck Construction', [
           '1 piece',
           '3 Piece',
@@ -216,37 +217,33 @@ const GuitarForm = () => {
           'Bare Knuckle',
         ])}
         {renderTextField(
-          'pickupsDetails',
+          'pickupDetails',
           'Pickup Details',
-          'Please enter more details'
+          'Please enter more details',
         )}
-        {renderTextField('controls', 'Controls', 'Enter controls type')}
-        {renderTextField('jackPlate', 'Jack Plate', 'Enter jack plate type')}
+        {renderTextField('controls', ' (Volume, Tone, Switches)', 'Enter controls type')}
+        {renderTextField('jackPlate', 'Jackplate style and location', 'Enter details here')}
         {renderSelectField('sideDots', 'Side Dots', [
           'Luminlay',
           'Mother of Pearl (MOP)',
+          'Pearloid',
           'Plastic',
         ])}
-        {renderSelectField('finishColor', 'Finish Color', [
-          'Olympic White Satin',
-          'Cherry Sunburst High Gloss Lacquer',
-          'Clear Oiled Finish',
+        {renderTextField('finishColor', 'Dye/Paint/Tint Color', 'Enter here')}
+        {renderSelectField('finish', 'Finish', [
+          'High Gloss Laquer',
+          'High Gloss Nitro',
+          'Satin Laquer',
+          'Matte Laquer',
+          'Oil Finish (Clear only)',
         ])}
-        {renderSelectField('hardwareColor', 'Hardware Color', [
+        {renderSelectField('hardwareColor', 'Hardware Color/finish', [
           'Chrome',
           'Black',
           'Gold',
         ])}
-        {renderSelectField('binding', 'Binding', [
-          'White ABS',
-          'Curly Maple',
-          'Matching Fretboard',
-        ])}
-        {renderSelectField('inlays', 'Inlays', [
-          'Pearl Dots',
-          'MOP Blocks',
-          'Shark Fins',
-        ])}
+        {renderTextField('binding', 'Binding (optional)', 'If yes please describe')}
+        {renderTextField('inlays', 'Inlays (optional)', 'If yes please describe')}
         <p className="pt-6">
           Anything else you want. I won’t say yes to everything but doesn’t hurt
           to ask!
