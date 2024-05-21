@@ -116,9 +116,9 @@ export const contactData = {
     },
   ],
   form: {
-    name: 'Write your name here',
-    email: 'Write your email address',
-    message: 'Write your messages here',
-    btnText: 'Send it',
+    name: 'Name',
+    email: 'Email',
+    message: 'Message',
+    btnText: 'Send',
   },
 };
