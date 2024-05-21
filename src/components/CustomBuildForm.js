@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 const GuitarForm = () => {
   const [formData, setFormData] = useState({
@@ -44,6 +45,8 @@ const GuitarForm = () => {
     headstockStyle: false,
   });
 
+  const [isSubmitted, setIsSubmitted] = useState(false);
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prevData) => ({
@@ -51,21 +54,26 @@ const GuitarForm = () => {
       [name]: value,
     }));
 
-    if (value === 'Other') {
+    if (name === 'bodyStyle' || name === 'headstockStyle') {
       setOtherFields((prevFields) => ({
         ...prevFields,
-        [name]: true,
-      }));
-    } else if (otherFields[name]) {
-      setOtherFields((prevFields) => ({
-        ...prevFields,
-        [name]: false,
+        [name]: value === 'Other',
       }));
     }
   };
 
+  const form = useRef();
+
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    emailjs.sendForm('service_f05kigw', 'template_lvcms4m', form.current, 'dPcxST3zI0_MhNt05')
+      .then(() => {
+        console.log('SUCCESS!');
+        setIsSubmitted(true);
+      }, (error) => {
+        console.log('FAILED...', error.text);
+      });
     console.log(formData);
   };
 
@@ -116,7 +124,7 @@ const GuitarForm = () => {
     <div className="container mx-auto px-4 pt-[130px] lg:pt-[170px]">
       <h2 className='flex xl:justify-center'>Custom Build Form:</h2>
       <div className="pb-7"></div>
-      <form onSubmit={handleSubmit} className="max-w-md mx-auto pb-7">
+      <form ref={form} onSubmit={handleSubmit} className="max-w-md mx-auto pb-7">
         {renderTextField('name', 'Name', "Name")}
         {renderTextField('email', 'Email', "Email")}
         {renderSelectField('instrument', 'Instrument', ['Guitar', 'Bass'])}
@@ -265,8 +273,9 @@ const GuitarForm = () => {
         <button
           type="submit"
           className="bg-accent hover:bg-header text-accent2 font-bold py-2 px-4 rounded"
+          disabled={isSubmitted}
         >
-          Submit
+          {isSubmitted ? 'SENT!' : 'Submit'}
         </button>
       </form>
     </div>
