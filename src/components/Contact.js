@@ -5,7 +5,7 @@ import { send } from 'emailjs-com';
 
 const Contact = () => {
   //destructure contact data
-  const { title, info, form } = contactData;
+  const { info, form } = contactData;
   //form submission
   const [toSend, setToSend] = useState({
     from_name: '',

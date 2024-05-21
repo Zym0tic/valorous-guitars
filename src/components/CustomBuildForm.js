@@ -16,8 +16,11 @@ const GuitarForm = () => {
     orientation: '',
     neckProfile: '',
     bodyWood: '',
+    bodyWoodOther: '',
     neckWood: '',
+    neckWoodOther: '',
     fretboardWood: '',
+    fretboardWoodOther: '',
     neckConstruction: '',
     scaleLength: '',
     fretboardRadius: '',
@@ -43,6 +46,9 @@ const GuitarForm = () => {
   const [otherFields, setOtherFields] = useState({
     bodyStyle: false,
     headstockStyle: false,
+    bodyWood: false,
+    neckWood: false,
+    fretboardWood: false,
   });
 
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -54,7 +60,7 @@ const GuitarForm = () => {
       [name]: value,
     }));
 
-    if (name === 'bodyStyle' || name === 'headstockStyle') {
+    if (name === 'bodyStyle' || name === 'headstockStyle' || name === 'bodyWood' || name === 'fretboardWood' || name === 'neckWood') {
       setOtherFields((prevFields) => ({
         ...prevFields,
         [name]: value === 'Other',
@@ -138,6 +144,7 @@ const GuitarForm = () => {
           'Morgul-Blade',
           'Stormbringer',
           'Warmachine',
+          'Carrionbird',
           'Other',
         ])}
         {renderSelectField('neckJoint', 'Neck Joint', [
@@ -166,16 +173,19 @@ const GuitarForm = () => {
           'Black Limba',
           'Mahogany',
           'Walnut',
+          'Other',
         ])}
         {renderSelectField('neckWood', 'Neck Wood', [
           'Maple',
           'Roasted Maple',
           'Mahogany',
+          'Other'
         ])}
         {renderSelectField('fretboardWood', 'Fretboard Wood', [
           'Ebony',
           'Rosewood',
           'Maple',
+          'Other'
         ])}
         {renderTextField('top', 'Top (optional)*', 'If yes please describe')}
         {renderSelectField('neckConstruction', 'Neck Construction', [
