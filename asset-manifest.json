@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/valorous-guitars/static/css/main.f4a70257.css",
-    "main.js": "/valorous-guitars/static/js/main.771edb34.js",
+    "main.js": "/valorous-guitars/static/js/main.d40028bf.js",
     "static/media/bg.png": "/valorous-guitars/static/media/bg.6710aa56d9e68d4deee5.png",
     "static/media/2FADAB6C-9C19-4C5A-BFCF-281752F664DA.png": "/valorous-guitars/static/media/2FADAB6C-9C19-4C5A-BFCF-281752F664DA.595fab8657573ef18ae5.png",
     "static/media/valimg.jpg": "/valorous-guitars/static/media/valimg.cb6b42ce3894811d3810.jpg",
@@ -9,10 +9,10 @@
     "static/media/header-img.jpg": "/valorous-guitars/static/media/header-img.55d5167d88d7f643ef2d.jpg",
     "index.html": "/valorous-guitars/index.html",
     "main.f4a70257.css.map": "/valorous-guitars/static/css/main.f4a70257.css.map",
-    "main.771edb34.js.map": "/valorous-guitars/static/js/main.771edb34.js.map"
+    "main.d40028bf.js.map": "/valorous-guitars/static/js/main.d40028bf.js.map"
   },
   "entrypoints": [
     "static/css/main.f4a70257.css",
-    "static/js/main.771edb34.js"
+    "static/js/main.d40028bf.js"
   ]
 }
