@@ -2,9 +2,14 @@ import React, { useState } from 'react';
 
 const GuitarForm = () => {
   const [formData, setFormData] = useState({
+    to_name: 'Kevin Parnow',
+    name: '',
+    email: '',
     instrument: '',
     bodyStyle: '',
+    bodyStyleOther: '',
     headstockStyle: '',
+    headstockStyleOther: '',
     neckJoint: '',
     numStrings: '',
     orientation: '',
@@ -109,8 +114,11 @@ const GuitarForm = () => {
 
   return (
     <div className="container mx-auto px-4 pt-[130px] lg:pt-[170px]">
-      <div className="py-7"></div>
+      <h2 className='flex xl:justify-center'>Custom Build Form:</h2>
+      <div className="pb-7"></div>
       <form onSubmit={handleSubmit} className="max-w-md mx-auto pb-7">
+        {renderTextField('name', 'Name', "Name")}
+        {renderTextField('email', 'Email', "Email")}
         {renderSelectField('instrument', 'Instrument', ['Guitar', 'Bass'])}
         {renderSelectField('bodyStyle', 'Body Style', [
           'Morgul-Blade',
