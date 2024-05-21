@@ -36,16 +36,14 @@ const Contact = () => {
         <div className="flex flex-col xl:flex-row gap-y-16">
           {/* text */}
           <div className="flex-1 font-bold">
-            {/* title */}
-            <h2 className="h2 max-w-[490px]">{title}</h2>
             {/* info items */}
             {info.map((item, index) => {
               //destructure item
-              const { title, subtitle, email } = item;
+              const { subtitle, email } = item;
               return (
                 <div key={index}>
                   {/* subtitle */}
-                  <div className="mb-6 text-accent">
+                  <div className="mb-6 text-accent2">
                     {subtitle}
                   </div>
                   {/* address, phone and email */}
@@ -53,7 +51,7 @@ const Contact = () => {
                     {/* email */}
                     <div className="flex items-center gap-[10px]">
                       <div>{email.icon}</div>
-                      <div className="font-medium text-accent font-bold">{email.address}</div>
+                      <div className="text-accent font-bold">{email.address}</div>
                     </div>
                   </div>
                 </div>
@@ -64,7 +62,7 @@ const Contact = () => {
           <div className="flex-1 xl:pl-[40px] flex justify-center items-center">
             <form className="flex flex-col gap-y-10 w-full" onSubmit={onSubmit}>
               <input
-                className="border-b border-dark placeholder:text-dark bg-header italic trackingg-[0.06em] outline-none pb-4"
+                className="border-b border-dark placeholder:text-accent2 bg-accent trackingg-[0.06em] outline-none pb-4"
                 placeholder={form.name}
                 type="text"
                 name="from_name"
@@ -72,7 +70,7 @@ const Contact = () => {
                 onChange={handleChange}
               />
               <input
-                className="border-b border-dark placeholder:text-dark bg-header italic trackingg-[0.06em] outline-none pb-4"
+                className="border-b border-dark placeholder:text-accent2 bg-accent trackingg-[0.06em] outline-none pb-4"
                 placeholder={form.email}
                 type="text"
                 name="reply_to"
@@ -80,7 +78,7 @@ const Contact = () => {
                 onChange={handleChange}
               />
               <input
-                className="border-b border-dark placeholder:text-dark bg-header italic trackingg-[0.06em] outline-none pb-4"
+                className="border-b border-dark placeholder:text-accent2 bg-accent trackingg-[0.06em] outline-none pb-4"
                 placeholder={form.message}
                 type="text"
                 name="message"
@@ -88,7 +86,7 @@ const Contact = () => {
                 onChange={handleChange}
               />
               {/* button */}
-              <button className="btn btn-sm btn-dark self-start">
+              <button className="bg-accent hover:bg-header text-accent2 font-bold py-2 px-4 rounded">
                 {form.btnText}
               </button>
             </form>
