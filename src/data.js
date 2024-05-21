@@ -28,7 +28,7 @@ export const navData = {
 
 export const socialData = [
   {
-    href: 'https://www.instagram.com/valorous_guitars/',
+    href: 'https://www.instagram.com/valorousguitars/',
     icon: <AiFillInstagram />,
   },
 ];
@@ -96,7 +96,7 @@ export const footerData = {
         name: 'Contact',
       },
       { href: '#/main/webstore', name: 'Webstore' },
-      { href: 'https://www.instagram.com/valorous_guitars/', name: <AiFillInstagram /> },
+      { href: 'https://www.instagram.com/valorousguitars/', name: <AiFillInstagram /> },
     ],
   },
 };
