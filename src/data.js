@@ -107,7 +107,7 @@ export const contactData = {
     {
       title: 'Email:',
       subtitle:
-        'Send us an email if you would like to get in contact',
+        'Send me an email if you would like to get in contact',
       email: {
         icon: 'email:',
         address: 'valorousguitars@gmail.com',
