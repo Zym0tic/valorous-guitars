@@ -13,7 +13,7 @@ const Footer = () => {
             className='flex-1 flex flex-col xl:items-center'
           >
             <div>
-              <ul className='flex flex-col gap-y-4 text-accent font-primary uppercase'>
+              <ul className='flex flex-col gap-y-4 text-accent2 font-primary uppercase'>
                 {links.items.map((item, index) => {
                   // destructure item
                   const { href, name } = item;

@@ -11,7 +11,7 @@ const NavMobile = (props) => {
   const { items } = navData;
   return (
     <nav className="w-full h-full flex flex-col justify-evenly overflow-hidden">
-      <ul className="flex flex-col justify-center items-center gap-y-4 py-6 mb-8 text-accent">
+      <ul className="flex flex-col justify-center items-center gap-y-4 py-6 mb-8 text-accent2">
         {items.map((item, index) => {
           return (
             <li key={index}>
@@ -31,7 +31,7 @@ const NavMobile = (props) => {
           </Link>
         </li>
       </ul>
-      <div className="text-2xl text-accent">
+      <div className="text-2xl text-accent2">
         <Socials />
       </div>
     </nav>
