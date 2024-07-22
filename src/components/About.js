@@ -18,7 +18,7 @@ const About = () => {
                     return (
                       <div key={index}>
                         <img className="mx-auto mb-5 lg:h-[80vh]" src={img} alt="/" />
-                        <div className="flex justify-center mb-[20px]">
+                        <div className="flex justify-center my-[30px] lg:my-[100px]">
                         <GetStarted />
                         </div>
                         <p className="mb-5">{paragraph1}</p>
@@ -28,7 +28,7 @@ const About = () => {
                         <p className="mb-5">{paragraph3}</p>
                         <img className="mx-auto mb-5 lg:h-[80vh]" src={img3} alt="/" />
                         <p className="mb-5">{paragraph4}</p>
-                        <div className="flex justify-center">
+                        <div className="flex justify-center mt-[60px] lg;mt-[100px]">
                         <GetStarted />
                         </div>
                       </div>
