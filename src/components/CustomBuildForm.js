@@ -85,7 +85,7 @@ const GuitarForm = () => {
 
   const renderSelectField = (fieldName, label, options) => (
     <div className="mb-4">
-      <label htmlFor={fieldName} className="block text-gray-700">
+      <label htmlFor={fieldName} className="block text-accent2">
         {label}
       </label>
       <select
@@ -111,7 +111,7 @@ const GuitarForm = () => {
 
   const renderTextField = (fieldName, label, placeholder) => (
     <div className="mb-4">
-      <label htmlFor={fieldName} className="block text-gray-700">
+      <label htmlFor={fieldName} className="block text-accent2">
         {label}
       </label>
       <input

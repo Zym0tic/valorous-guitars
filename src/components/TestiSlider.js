@@ -10,7 +10,7 @@ const TestiSlider = () => {
   return (
     <Swiper
       pagination={{ clickable: true }}
-      autoplay={{ delay: 3000, disableOnInteraction: false }}
+      autoplay={{ delay: 10000, disableOnInteraction: false }}
       modules={[Autoplay, Pagination]}
       className='mySwiper'
     >
@@ -22,7 +22,7 @@ const TestiSlider = () => {
               <div className='w-auto h-auto'>
                 <img className='lg:w-48' src={authorImg} alt='' />
               </div>
-              <div className='max-w-lg text-accent'>
+              <div className='max-w-lg text-accent2'>
                 <p className='font-semibold italic'>{authorText}</p>
                 <div className='mt-4'>
                   <p className='text-xl font-semibold'>{authorName}</p>
