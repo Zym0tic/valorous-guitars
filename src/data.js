@@ -3,7 +3,9 @@ import Logo from '../src/svg/ValorousLogo.svg';
 import img1 from '../src/img/about/valimg.JPEG';
 import stormbringer from '../src/img/about/stormbringer.png';
 import warmachine from '../src/img/about/warmachine.png';
-import morgulblade from '../src/img/about/morgulblade.png'
+import morgulblade from '../src/img/about/morgulblade.png';
+import deathdealer from '../src/img/about/deathdealer.png';
+import carrionbird from '../src/img/about/carrionbird.png'
 //import testimonials photos
 import luket from "../src/img/testimonials/luketest.jpg"
 import TJtest from "../src/img/testimonials/TJtest.jpg"
@@ -39,6 +41,7 @@ export const socialData = [
 export const aboutData = {
   items: [
     {
+      img5: carrionbird,
       paragraph1:
         'My name is Kevin, I am the founder of Valorous Custom Guitars, established in 2023. With over two decades of experience in woodworking, art, audio engineering, performing, and lutherie, I have cultivated a diverse skill set that shapes my craft.',
         img1: stormbringer,
@@ -50,6 +53,7 @@ export const aboutData = {
         img3: morgulblade,
         paragraph4:
         'Each guitar I build is a labor of love, reflecting my unwavering commitment to excellence. Valorous Custom Guitars is not just a business to me; it is a manifestation of my vocation and a testament to my dedication to producing exceptional instruments for musicians who share my reverence for music and artistry.',
+        img4: deathdealer,
       img: img1,
     },
   ],
