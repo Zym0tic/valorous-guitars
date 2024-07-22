@@ -1,6 +1,9 @@
 import Logo from '../src/svg/ValorousLogo.svg';
 //import about photos
 import img1 from '../src/img/about/valimg.JPEG';
+import stormbringer from '../src/img/about/stormbringer.png';
+import warmachine from '../src/img/about/warmachine.png';
+import morgulblade from '../src/img/about/morgulblade.png'
 //import testimonials photos
 import luket from "../src/img/testimonials/luketest.jpg"
 import TJtest from "../src/img/testimonials/TJtest.jpg"
@@ -38,10 +41,13 @@ export const aboutData = {
     {
       paragraph1:
         'My name is Kevin, I am the founder of Valorous Custom Guitars, established in 2023. With over two decades of experience in woodworking, art, audio engineering, performing, and lutherie, I have cultivated a diverse skill set that shapes my craft.',
+        img1: stormbringer,
         paragraph2:
         'My journey with guitars began at the age of 12, inspired by bands like Metallica, Slayer, and Motörhead. Through hands-on exploration of fretwork, electronics, and woodwork on my own instruments, I opted for experiential learning over traditional apprenticeships.',
+        img2: warmachine,
         paragraph3: 
         'Drawing upon my professional background in furniture building, tattooing, and audio engineering, I have developed a unique approach to crafting custom guitars. Valorous is the culmination of my lifelong passion for creating instruments of superior quality and craftsmanship.',
+        img3: morgulblade,
         paragraph4:
         'Each guitar I build is a labor of love, reflecting my unwavering commitment to excellence. Valorous Custom Guitars is not just a business to me; it is a manifestation of my vocation and a testament to my dedication to producing exceptional instruments for musicians who share my reverence for music and artistry.',
       img: img1,
