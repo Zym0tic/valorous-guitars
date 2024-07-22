@@ -40,7 +40,7 @@ const About = () => {
                         <p className="mb-5">{paragraph2}</p>
                         <p className="mb-5">{paragraph3}</p>
                         <p className="mb-5">{paragraph4}</p>
-                        <div className="mt-[40px]">
+                        <div className="mt-[40px] uppercase">
                         <p className="text-center italic">Stormbringer</p>
                           <img
                             className="mx-auto mb-5 lg:h-[80vh]"
