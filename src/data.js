@@ -19,7 +19,7 @@ export const headerData = {
 export const heroData = {
   title: 'Valorous Guitars',
   subtitle:
-    'Custom Guitar Shop and Luthier based out of Portland, Oregon.',
+    'Custom Electric Guitars Handcrafted in Portland, Oregon.',
   btnText: 'ENTER',
   logo: Logo,
 };

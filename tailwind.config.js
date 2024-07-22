@@ -3,9 +3,9 @@ module.exports = {
     content: ['./src/**/*.{js,jsx,ts,tsx}'],
     theme: {
       fontFamily: {
-        primary: 'IM Fell English',
+        primary: 'IM Fell English SC',
         secondary: 'IM Fell English SC',
-        tertiary: 'IM Fell English',
+        tertiary: 'IM Fell English SC',
       },
       container: {
         padding: {
