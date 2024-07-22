@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/valorous-guitars/static/css/main.f4a70257.css",
-    "main.js": "/valorous-guitars/static/js/main.d40028bf.js",
+    "main.css": "/valorous-guitars/static/css/main.705fe89f.css",
+    "main.js": "/valorous-guitars/static/js/main.ab546ddf.js",
+    "static/media/TJtest.jpg": "/valorous-guitars/static/media/TJtest.4d300ba2e841e1332258.jpg",
+    "static/media/warmachine.png": "/valorous-guitars/static/media/warmachine.b9a1b518b83b7911cef4.png",
     "static/media/bg.png": "/valorous-guitars/static/media/bg.6710aa56d9e68d4deee5.png",
-    "static/media/2FADAB6C-9C19-4C5A-BFCF-281752F664DA.png": "/valorous-guitars/static/media/2FADAB6C-9C19-4C5A-BFCF-281752F664DA.595fab8657573ef18ae5.png",
-    "static/media/valimg.jpg": "/valorous-guitars/static/media/valimg.cb6b42ce3894811d3810.jpg",
+    "static/media/morgulblade.png": "/valorous-guitars/static/media/morgulblade.b39b67ac41067cccd703.png",
+    "static/media/stormbringer.png": "/valorous-guitars/static/media/stormbringer.12b309d0f2e082fabfc2.png",
+    "static/media/valimg.JPEG": "/valorous-guitars/static/media/valimg.34757bd5e78b855e80f5.JPEG",
+    "static/media/luketest.jpg": "/valorous-guitars/static/media/luketest.822ed8c7d6e5d215c5e6.jpg",
     "static/media/ValorousLogo.svg": "/valorous-guitars/static/media/ValorousLogo.810f29ccf5ce9852bd1148ec1d29c8b8.svg",
     "static/media/header-img.jpg": "/valorous-guitars/static/media/header-img.55d5167d88d7f643ef2d.jpg",
     "index.html": "/valorous-guitars/index.html",
-    "main.f4a70257.css.map": "/valorous-guitars/static/css/main.f4a70257.css.map",
-    "main.d40028bf.js.map": "/valorous-guitars/static/js/main.d40028bf.js.map"
+    "main.705fe89f.css.map": "/valorous-guitars/static/css/main.705fe89f.css.map",
+    "main.ab546ddf.js.map": "/valorous-guitars/static/js/main.ab546ddf.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4a70257.css",
-    "static/js/main.d40028bf.js"
+    "static/css/main.705fe89f.css",
+    "static/js/main.ab546ddf.js"
   ]
 }
