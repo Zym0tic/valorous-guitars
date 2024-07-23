@@ -25,6 +25,7 @@ const About = () => {
                       img3,
                       img4,
                       img5,
+                      img6,
                     } = item;
                     return (
                       <div key={index}>
@@ -46,6 +47,11 @@ const About = () => {
                             <img
                               className="mx-auto mb-5"
                               src={img1}
+                              alt="/"
+                            />
+                            <img
+                              className="mx-auto mb-5"
+                              src={img6}
                               alt="/"
                             />
                           </div>
