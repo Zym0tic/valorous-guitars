@@ -13,7 +13,7 @@ import TJtest from "../src/img/testimonials/TJtest.jpg";
 //import partner images
 import kahler from '../src/img/partners/Kahler.jpg';
 import hipshot from '../src/img/partners/hipshot-products-vector-logo.png';
-import bareknuckle from '../src/img/partners/Bare_Knuckle_Pickups_Logo-38.jpg';
+import bareknuckle from '../src/img/partners/bareknuckle.jpg';
 import emg from '../src/img/partners/emg.png';
 import arcana from '../src/img/partners/arcanapickups.png';
 import musicnomad from '../src/img/partners/music nomad.jpg';
