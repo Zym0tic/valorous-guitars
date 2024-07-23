@@ -6,10 +6,17 @@ import stormbringer2 from '../src/img/about/stormbringer2.png';
 import warmachine from '../src/img/about/warmachine.png';
 import morgulblade from '../src/img/about/morgulblade.png';
 import deathdealer from '../src/img/about/deathdealer.png';
-import carrionbird from '../src/img/about/carrionbird.png'
+import carrionbird from '../src/img/about/carrionbird.png';
 //import testimonials photos
-import luket from "../src/img/testimonials/luketest.jpg"
-import TJtest from "../src/img/testimonials/TJtest.jpg"
+import luket from "../src/img/testimonials/luketest.jpg";
+import TJtest from "../src/img/testimonials/TJtest.jpg";
+//import partner images
+import kahler from '../src/img/partners/Kahler.jpg';
+import hipshot from '../src/img/partners/hipshot-products-vector-logo.png';
+import bareknuckle from '../src/img/partners/Bare_Knuckle_Pickups_Logo-38.jpg';
+import emg from '../src/img/partners/emg.png';
+import arcana from '../src/img/partners/arcanapickups.png';
+import musicnomad from '../src/img/partners/music nomad.jpg';
 //import icons
 import { AiFillInstagram } from 'react-icons/ai';
 
@@ -125,4 +132,16 @@ export const contactData = {
     message: 'Message',
     btnText: 'Send',
   },
+};
+
+export const partnersData = {
+  title: "Some of our Partners",
+  images: [
+    { kahler: kahler },
+    { hipshot: hipshot },
+    { bareknuckle: bareknuckle },
+    { emg: emg },
+    { arcana: arcana },
+    { musicnomad: musicnomad },
+  ],
 };
