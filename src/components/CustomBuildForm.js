@@ -3,7 +3,7 @@ import emailjs from '@emailjs/browser';
 
 const GuitarForm = () => {
   const [formData, setFormData] = useState({
-    to_name: 'Kevin Parnow',
+    to_name: 'Kevin',
     name: '',
     email: '',
     instrument: '',
@@ -15,6 +15,7 @@ const GuitarForm = () => {
     numStrings: '',
     dexterity: '',
     neckProfile: '',
+    neckProfileOther: '',
     bodyWood: '',
     bodyWoodOther: '',
     neckWood: '',
@@ -23,15 +24,20 @@ const GuitarForm = () => {
     fretboardWoodOther: '',
     neckConstruction: '',
     scaleLength: '',
+    scaleLengthOther: '',
     fretboardRadius: '',
+    fretboardRadiusOther: '',
     fretAmmount: '',
     fretSize: '',
     fretMaterial: '',
     bridge: '',
+    bridgeOther: '',
     nut: '',
     tuners: '',
+    tunersOther: '',
     tunerDetails: '',
     pickups: '',
+    pickupsOther: '',
     pickupDetails: '',
     controls: '',
     jackPlate: '',
@@ -50,10 +56,12 @@ const GuitarForm = () => {
     headstockStyle: false,
     bodyWood: false,
     neckWood: false,
+    neckProfile: false,
     fretboardWood: false,
     fretboardRadius: false,
     scaleLength: false,
     bridge: false,
+    tuners: false,
     pickups: false,
   });
 
@@ -66,7 +74,7 @@ const GuitarForm = () => {
       [name]: value,
     }));
 
-    if (name === 'bodyStyle' || name === 'headstockStyle' || name === 'bodyWood' || name === 'fretboardWood' || name === 'neckWood' || name === 'fretboardRadius' || name === 'scaleLength' || name === 'bridge' || name === 'pickups') {
+    if (name === 'bodyStyle' || name === 'headstockStyle' || name === 'bodyWood' || name === 'fretboardWood' || name === 'neckWood' || name === 'neckProfile' || name === 'fretboardRadius' || name === 'scaleLength' || name === 'bridge' || name === 'tuners' ||name === 'pickups') {
       setOtherFields((prevFields) => ({
         ...prevFields,
         [name]: value === 'Other',
@@ -289,16 +297,16 @@ const GuitarForm = () => {
         ])}
         {renderTextField('binding', 'Binding (optional)*', 'If yes please describe')}
         {renderTextField('inlays', 'Inlays (optional)*', 'If yes please describe')}
-        <p className="pt-6">
-          Anything else you want. I won’t say yes to everything but doesn’t hurt
-          to ask!
-        </p>
-        {renderTextField('notes', 'Add notes')}
         {renderSelectField('straplockOptions', 'Straplock/Button Options', [
           'Regular',
           'Schaller Locking',
           'Dunlop Flush-mount Locking',
         ])}
+        <p className="pt-6">
+          Anything else you want. I won’t say yes to everything but doesn’t hurt
+          to ask!
+        </p>
+        {renderTextField('notes', 'Add notes')}
 
         <p className="py-6">
           Please allow 1-3 business days to complete your quote. Thanks for
