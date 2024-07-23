@@ -13,7 +13,7 @@ const GuitarForm = () => {
     headstockStyleOther: '',
     neckJoint: '',
     numStrings: '',
-    orientation: '',
+    dexterity: '',
     neckProfile: '',
     bodyWood: '',
     bodyWoodOther: '',
@@ -30,6 +30,7 @@ const GuitarForm = () => {
     bridge: '',
     nut: '',
     tuners: '',
+    tunerDetails: '',
     pickups: '',
     pickupDetails: '',
     controls: '',
@@ -38,6 +39,7 @@ const GuitarForm = () => {
     finishColor: '',
     finish: '',
     hardwareColor: '',
+    straplockOptions: '',
     binding: '',
     inlays: '',
     notes: '',
@@ -49,6 +51,10 @@ const GuitarForm = () => {
     bodyWood: false,
     neckWood: false,
     fretboardWood: false,
+    fretboardRadius: false,
+    scaleLength: false,
+    bridge: false,
+    pickups: false,
   });
 
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -60,7 +66,7 @@ const GuitarForm = () => {
       [name]: value,
     }));
 
-    if (name === 'bodyStyle' || name === 'headstockStyle' || name === 'bodyWood' || name === 'fretboardWood' || name === 'neckWood') {
+    if (name === 'bodyStyle' || name === 'headstockStyle' || name === 'bodyWood' || name === 'fretboardWood' || name === 'neckWood' || name === 'fretboardRadius' || name === 'scaleLength' || name === 'bridge' || name === 'pickups') {
       setOtherFields((prevFields) => ({
         ...prevFields,
         [name]: value === 'Other',
@@ -138,14 +144,14 @@ const GuitarForm = () => {
           'Morgul-Blade',
           'Stormbringer',
           'Warmachine',
+          'Carrionbird',
+          'Jawbreaker',
           'Other',
         ])}
         {renderSelectField('headstockStyle', 'Headstock Style', [
-          'Morgul-Blade',
-          'Stormbringer',
-          'Warmachine',
-          'Carrionbird',
-          'Other',
+          '3x3',
+          '6 inline',
+          'reverse 6 inline',
         ])}
         {renderSelectField('neckJoint', 'Neck Joint', [
           'Bolt-on',
@@ -158,14 +164,15 @@ const GuitarForm = () => {
           '6 (Guitar)',
           '7 (Guitar)',
         ])}
-        {renderSelectField('orientation', 'Orientation', ['Right', 'Left'])}
+        {renderSelectField('dexterity', 'Dexterity', ['Right', 'Left'])}
         {renderSelectField('neckProfile', 'Neck Profile', [
           'Slim C',
           'Medium C',
           'Fat C',
-          'Speed',
+          'Thin D',
           'Medium V',
           'Asymmetrical',
+          'Other',
         ])}
         {renderSelectField('bodyWood', 'Body Wood', [
           'Alder',
@@ -189,16 +196,16 @@ const GuitarForm = () => {
         ])}
         {renderTextField('top', 'Top (optional)*', 'If yes please describe')}
         {renderSelectField('neckConstruction', 'Neck Construction', [
-          '1 piece',
+          '1 piece(quartersawn)',
           '3 Piece',
           '5 Piece',
         ])}
         {renderSelectField('scaleLength', 'Scale Length', [
           '24.75"',
           '25.5"',
-          '28.5"',
           '30"',
           '34"',
+          'Other'
         ])}
         {renderSelectField('fretboardRadius', 'Fretboard Radius', [
           '10"',
@@ -206,12 +213,14 @@ const GuitarForm = () => {
           '14"',
           '10"-14" Compound',
           '12"-16" Compound',
+          'Other',
         ])}
-        {renderSelectField('fretAmmount', 'Fret Amount', ['22', '24', '27'])}
+        {renderTextField('fretAmmount', 'Fret Amount', 'Ammount of frets')}
         {renderSelectField('fretSize', 'Fret Size', [
           'Medium',
           'Jumbo',
           'Super Jumbo',
+          'Tall and Skinny'
         ])}
         {renderSelectField('fretMaterial', 'Fret Material', [
           'Nickel Silver',
@@ -224,6 +233,9 @@ const GuitarForm = () => {
           'Hipshot Tone-A-Matic',
           'Kahler Quad Fixed',
           'Kahler 2300/7300',
+          'Gotoh GE1996T',
+          'Tonepros AVT2M',
+          'Other',
         ])}
         {renderSelectField('nut', 'Nut', [
           'TUSQ XL',
@@ -232,15 +244,22 @@ const GuitarForm = () => {
           'Bone',
         ])}
         {renderSelectField('tuners', 'Tuners', [
-          'Hipshot open gears',
-          'Grover vintage',
-          'Gotoh locking tuners',
+          'Hipshot',
+          'Grover',
+          'Gotoh',
+          'Other',
         ])}
+         {renderTextField(
+          'tunerDetails',
+          'Tuner Details',
+          'Please enter more details',
+        )}
         {renderSelectField('pickups', 'Pickups', [
           'EMG',
           'Seymour Duncan',
           'Dimarzio',
           'Bare Knuckle',
+          'Other'
         ])}
         {renderTextField(
           'pickupDetails',
@@ -257,10 +276,10 @@ const GuitarForm = () => {
         ])}
         {renderTextField('finishColor', 'Dye/Paint/Tint Color', 'Enter here')}
         {renderSelectField('finish', 'Finish', [
-          'High Gloss Laquer',
+          'High Gloss 2k Urethane',
           'High Gloss Nitro',
-          'Satin Laquer',
-          'Matte Laquer',
+          'Satin Nitro',
+          'Matte 2k Urethane',
           'Oil Finish (Clear only)',
         ])}
         {renderSelectField('hardwareColor', 'Hardware Color/finish', [
@@ -275,6 +294,11 @@ const GuitarForm = () => {
           to ask!
         </p>
         {renderTextField('notes', 'Add notes')}
+        {renderSelectField('straplockOptions', 'Straplock/Button Options', [
+          'Regular',
+          'Schaller Locking',
+          'Dunlop Flush-mount Locking',
+        ])}
 
         <p className="py-6">
           Please allow 1-3 business days to complete your quote. Thanks for
