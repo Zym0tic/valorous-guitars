@@ -161,7 +161,8 @@ const GuitarForm = () => {
         {renderSelectField('headstockStyle', 'Headstock Style', [
           '3x3',
           '6 inline',
-          'reverse 6 inline',
+          'Reverse 6 inline',
+          'Other',
         ])}
         {renderSelectField('neckJoint', 'Neck Joint', [
           'Bolt-on',
