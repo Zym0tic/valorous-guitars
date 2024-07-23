@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/valorous-guitars/static/css/main.7ca4bbf2.css",
-    "main.js": "/valorous-guitars/static/js/main.7e22057f.js",
+    "main.js": "/valorous-guitars/static/js/main.f9d2f78b.js",
     "static/media/TJtest.jpg": "/valorous-guitars/static/media/TJtest.4d300ba2e841e1332258.jpg",
     "static/media/warmachine.png": "/valorous-guitars/static/media/warmachine.b9a1b518b83b7911cef4.png",
     "static/media/bg.png": "/valorous-guitars/static/media/bg.6710aa56d9e68d4deee5.png",
@@ -15,17 +15,17 @@
     "static/media/ValorousLogo.svg": "/valorous-guitars/static/media/ValorousLogo.810f29ccf5ce9852bd1148ec1d29c8b8.svg",
     "static/media/header-img.jpg": "/valorous-guitars/static/media/header-img.55d5167d88d7f643ef2d.jpg",
     "static/media/music nomad.jpg": "/valorous-guitars/static/media/music nomad.dfd23314502b3d9e345b.jpg",
-    "static/media/Bare_Knuckle_Pickups_Logo-38.jpg": "/valorous-guitars/static/media/Bare_Knuckle_Pickups_Logo-38.50edc31fb73194787a3b.jpg",
+    "static/media/bareknuckle.jpg": "/valorous-guitars/static/media/bareknuckle.ee70ddaea6abfd21bfd1.jpg",
     "static/media/Kahler.jpg": "/valorous-guitars/static/media/Kahler.dae2996c1b170d6f2f0d.jpg",
     "static/media/arcanapickups.png": "/valorous-guitars/static/media/arcanapickups.bd13d4e26f301a9801b2.png",
     "static/media/emg.png": "/valorous-guitars/static/media/emg.a5105da38a637b1d4761.png",
     "static/media/hipshot-products-vector-logo.png": "/valorous-guitars/static/media/hipshot-products-vector-logo.a29292f3e0a2bb9833b9.png",
     "index.html": "/valorous-guitars/index.html",
     "main.7ca4bbf2.css.map": "/valorous-guitars/static/css/main.7ca4bbf2.css.map",
-    "main.7e22057f.js.map": "/valorous-guitars/static/js/main.7e22057f.js.map"
+    "main.f9d2f78b.js.map": "/valorous-guitars/static/js/main.f9d2f78b.js.map"
   },
   "entrypoints": [
     "static/css/main.7ca4bbf2.css",
-    "static/js/main.7e22057f.js"
+    "static/js/main.f9d2f78b.js"
   ]
 }
