@@ -4,8 +4,6 @@ import { Routes, Route, useLocation } from 'react-router-dom';
 // import components
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import WelcomeVid from '../components/WelcomeVid';
-import Images from '../components/Images';
 import CustomBuildForm from '../components/CustomBuildForm'
 import Copyright from '../components/Copyright';
 import Home from '../components/Home';
@@ -25,8 +23,6 @@ function Main() {
       <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/videos" element={<WelcomeVid />} />
-          <Route path="/images" element={<Images />} />
           <Route path="/custombuildform" element={<CustomBuildForm />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/termsofservice" element={<TermsOfService />} />
