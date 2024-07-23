@@ -47,6 +47,8 @@ const GuitarForm = () => {
     hardwareColor: '',
     straplockOptions: '',
     binding: '',
+    tuning: '',
+    strings: '',
     inlays: '',
     notes: '',
   });
@@ -296,6 +298,8 @@ const GuitarForm = () => {
           'Gold',
         ])}
         {renderTextField('binding', 'Binding (optional)*', 'If yes please describe')}
+        {renderTextField('tuning', 'Tuning', 'Add tuning')}
+        {renderTextField('strings', 'Strings', 'prefered strings')}
         {renderTextField('inlays', 'Inlays (optional)*', 'If yes please describe')}
         {renderSelectField('straplockOptions', 'Straplock/Button Options', [
           'Regular',
