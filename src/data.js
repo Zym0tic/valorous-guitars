@@ -51,16 +51,16 @@ export const aboutData = {
     {
       img5: carrionbird,
       paragraph1:
-        'My name is Kevin, I am the founder of Valorous Custom Guitars, established in 2023. With over two decades of experience in woodworking, art, audio engineering, performing, and lutherie, I have cultivated a diverse skill set that shapes my craft.',
+        'Behold! A new dawn breaks, for Valorous Guitars has been bestowed upon the realm. To labor over fretted wonders, a long-awaited yearning fulfilled, for it is the vocation of lutherie that finds solace within.',
         img1: stormbringer,
         paragraph2:
-        'My journey with guitars began at the age of 12, inspired by bands like Metallica, Slayer, and Motörhead. Through hands-on exploration of fretwork, electronics, and woodwork on my own instruments, I opted for experiential learning over traditional apprenticeships.',
+        'I am Kevin, the sole luthier behind Valorous Guitars. In my workshop, each guitar is a testament to my unwavering passion for this timeless craft. My creations are not merely tools; they are to be extensions of the soul, forged with meticulous attention to detail and a steadfast commitment to quality. ',
         img2: warmachine,
         paragraph3: 
-        'Drawing upon my professional background in furniture building, tattooing, and audio engineering, I have developed a unique approach to crafting custom guitars. Valorous is the culmination of my lifelong passion for creating instruments of superior quality and craftsmanship.',
+        'I strive to create an instrument that resonates with the true spirit of those who wield it. Every build is unique, designed to deliver unparalleled performance, tone and appeal; to achieve a sense of power, captivation, and innovation every time you pick up your guitar.',
         img3: morgulblade,
         paragraph4:
-        'Each guitar I build is a labor of love, reflecting my unwavering commitment to excellence. Valorous Custom Guitars is not just a business to me; it is a manifestation of my vocation and a testament to my dedication to producing exceptional instruments for musicians who share my reverence for music and artistry.',
+        'If you so desire to join the ranks, to wield a Valorous weapon fortified for a lifetime of service, you shall find the freedom to inquire above and below. Whether you possess the knowledge of your preferred specifications, or you have yet to discover all the qualities that you crave, we shall council together to conceive your dream instrument.',
         img4: deathdealer,
         img6: stormbringer2,
       img: img1,
