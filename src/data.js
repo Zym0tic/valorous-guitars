@@ -60,7 +60,7 @@ export const aboutData = {
         'I strive to create an instrument that resonates with the true spirit of those who wield it. Every build is unique, designed to deliver unparalleled performance, tone and appeal; to achieve a sense of power, captivation, and innovation every time you pick up your guitar.',
         img3: morgulblade,
         paragraph4:
-        'If you so desire to join the ranks, to wield a Valorous weapon fortified for a lifetime of service, you shall find the freedom to inquire above and below. Whether you possess the knowledge of your preferred specifications, or you have yet to discover all the qualities that you crave, we shall council together to conceive your dream instrument.',
+        'If you so desire to join the ranks, to wield a Valorous weapon of your own fortified for a lifetime of service, you shall find the freedom to inquire as above, so below. Whether you possess the knowledge of your preferred specifications, or you have yet to discover all the qualities that you crave, we shall council together to conceive your fantasized instrument.',
         img4: deathdealer,
         img6: stormbringer2,
       img: img1,
