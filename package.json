@@ -1,7 +1,7 @@
 {
   "name": "valorous-guitars",
   "version": "0.0.0",
-  "homepage": "https://zym0tic.github.io/valorous-guitars/",
+  "homepage": "https://valorousguitars.com/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
