@@ -36,3 +36,50 @@
     transform: rotate(360deg);
   }
 }
+
+/* css for guitar image change */
+
+.guitar-image-container {
+  position: relative;
+  width: 100%;
+  max-width: 388px;
+}
+
+.guitar-front, .guitar-back {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.guitar-front {
+  opacity: 1;
+}
+
+.guitar-back {
+  opacity: 0;
+}
+
+.guitar-image-container:hover .guitar-front {
+  opacity: 0;
+}
+
+.guitar-image-container:hover .guitar-back {
+  opacity: 1;
+}
+
+@media (max-width: 1024px) {
+  .guitar-image-container {
+    cursor: pointer;
+  }
+
+  .guitar-image-container.clicked .guitar-front {
+    opacity: 0;
+  }
+
+  .guitar-image-container.clicked .guitar-back {
+    opacity: 1;
+  }
+}
+

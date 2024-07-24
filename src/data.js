@@ -7,6 +7,11 @@ import warmachine from '../src/img/about/warmachine.png';
 import morgulblade from '../src/img/about/morgulblade.png';
 import deathdealer from '../src/img/about/deathdealer.png';
 import carrionbird from '../src/img/about/carrionbird.png';
+import stormbringerback from '../src/img/about/stormbringerback.png';
+import stormbringer2back from '../src/img/about/stormbringer2back.png';
+import warmachineback from '../src/img/about/warmachineback.png';
+import deathdealerback from '../src/img/about/deathdealerback.png';
+import carrionbirdback from '../src/img/about/carrionbirdback.png';
 //import testimonials photos
 import luket from "../src/img/testimonials/luketest.jpg";
 import TJtest from "../src/img/testimonials/TJtest.jpg";
@@ -49,19 +54,19 @@ export const socialData = [
 export const aboutData = {
   items: [
     {
-      img5: carrionbird,
       paragraph1:
-        'Behold! A new dawn breaks, for Valorous Guitars has been bestowed upon the realm. To labor over fretted wonders, a long-awaited yearning fulfilled, for it is the vocation of lutherie that finds solace within.',
-        img1: stormbringer,
-        paragraph2:
-        'I am Kevin, the sole luthier behind Valorous Guitars. In my workshop, each guitar is a testament to my unwavering passion for this timeless craft. My creations are not merely tools; they are to be extensions of the soul, forged with meticulous attention to detail and a steadfast commitment to quality. ',
-        img2: warmachine,
-        paragraph3: 
-        'I strive to create an instrument that resonates with the true spirit of those who wield it. Every build is unique, designed to deliver unparalleled performance, tone and appeal; to achieve a sense of power, captivation, and innovation every time you pick up your guitar.',
-        img3: morgulblade,
-        paragraph4:
-        'If you so desire to join the ranks, to wield a Valorous weapon of your own fortified for a lifetime of service, you shall find the freedom to inquire as above, so below. Whether you possess the knowledge of your preferred specifications, or you have yet to discover all the qualities that you crave, we shall council together to conceive your fantasized instrument.',
-        img4: deathdealer,
+      'Behold! A new dawn breaks, for Valorous Guitars has been bestowed upon the realm. To labor over fretted wonders, a long-awaited yearning fulfilled, for it is the vocation of lutherie that finds solace within.',
+      paragraph2:
+      'I am Kevin, the sole luthier behind Valorous Guitars. In my workshop, each guitar is a testament to my unwavering passion for this timeless craft. My creations are not merely tools; they are to be extensions of the soul, forged with meticulous attention to detail and a steadfast commitment to quality. ',
+      paragraph3: 
+      'I strive to create an instrument that resonates with the true spirit of those who wield it. Every build is unique, designed to deliver unparalleled performance, tone and appeal; to achieve a sense of power, captivation, and innovation every time you pick up your guitar.',
+      paragraph4:
+      'If you so desire to join the ranks, to wield a Valorous weapon of your own fortified for a lifetime of service, you shall find the freedom to inquire as above, so below. Whether you possess the knowledge of your preferred specifications, or you have yet to discover all the qualities that you crave, we shall council together to conceive your fantasized instrument.',
+      img1: stormbringer,
+      img2: warmachine,
+      img3: morgulblade,
+      img4: deathdealer,
+      img5: carrionbird,
         img6: stormbringer2,
       img: img1,
     },
