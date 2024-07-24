@@ -7,7 +7,7 @@ const Copyright = () => {
         <div
           className="tracking-[0.02em] text-base"
         >
-          &copy; 2024 <span className="font-semibold font-primary text-accent">VALOROUS GUITARS</span>{" "}
+          &copy; 2024 <span className="font-semibold font-primary text-accent">VALOROUS CUSTOM GUITARS LLC</span>{" "}
           All rights reserved.
         </div>
       </div>
