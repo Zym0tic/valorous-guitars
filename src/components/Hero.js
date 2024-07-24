@@ -25,7 +25,7 @@ const Hero = () => {
         whileInView={"show"}
         className="container mx-auto min-h-[40vh] lg:h-full flex items-center justify-center xl:justify-end"
       >
-        <div className="text-white text-center lg:max-w-[640px] flex flex-col items-center xl:items-end">
+        <div className="text-white text-center lg:max-w-[640px] flex flex-col items-center xl:items-start">
           <motion.div variants={fadeIn("down")} className="pt-10">
             <img className="w-[388px]" src={logo} alt="Valorous logo" />
           </motion.div>
