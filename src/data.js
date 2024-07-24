@@ -13,8 +13,8 @@ import warmachineback from '../src/img/about/warmachineback.png';
 import deathdealerback from '../src/img/about/deathdealerback.png';
 import carrionbirdback from '../src/img/about/carrionbirdback.png';
 //import testimonials photos
-import luket from "../src/img/testimonials/luketest.jpg";
-import TJtest from "../src/img/testimonials/TJtest.jpg";
+import luket from '../src/img/testimonials/luketest.jpg';
+import TJtest from '../src/img/testimonials/TJtest.jpg';
 //import partner images
 import kahler from '../src/img/partners/Kahler.jpg';
 import hipshot from '../src/img/partners/hipshot-products-vector-logo.png';
@@ -31,8 +31,7 @@ export const headerData = {
 
 export const heroData = {
   title: 'Valorous Guitars',
-  subtitle:
-    'Custom Electric Guitars Handcrafted in Portland, Oregon.',
+  subtitle: 'Custom Electric Guitars Handcrafted in Portland, Oregon.',
   btnText: 'ENTER',
   logo: Logo,
 };
@@ -55,34 +54,37 @@ export const aboutData = {
   items: [
     {
       paragraph1:
-      'Behold! A new dawn breaks, for Valorous Guitars has been bestowed upon the realm. To labor over fretted wonders, a long-awaited yearning fulfilled, for it is the vocation of lutherie that finds solace within.',
+        'Behold! A new dawn breaks, for Valorous Guitars has been bestowed upon the realm. To labor over fretted wonders, a long-awaited yearning fulfilled, for it is the vocation of lutherie that finds solace within.',
       paragraph2:
-      'I am Kevin, the sole luthier behind Valorous Guitars. In my workshop, each guitar is a testament to my unwavering passion for this timeless craft. My creations are not merely tools; they are to be extensions of the soul, forged with meticulous attention to detail and a steadfast commitment to quality. ',
-      paragraph3: 
-      'I strive to create an instrument that resonates with the true spirit of those who wield it. Every build is unique, designed to deliver unparalleled performance, tone and appeal; to achieve a sense of power, captivation, and innovation every time you pick up your guitar.',
+        'I am Kevin, the sole luthier behind Valorous Guitars. In my workshop, each guitar is a testament to my unwavering passion for this timeless craft. My creations are not merely tools; they are to be extensions of the soul, forged with meticulous attention to detail and a steadfast commitment to quality. ',
+      paragraph3:
+        'I strive to create an instrument that resonates with the true spirit of those who wield it. Every build is unique, designed to deliver unparalleled performance, tone and appeal; to achieve a sense of power, captivation, and innovation every time you pick up your guitar.',
       paragraph4:
-      'If you so desire to join the ranks, to wield a Valorous weapon of your own fortified for a lifetime of service, you shall find the freedom to inquire as above, so below. Whether you possess the knowledge of your preferred specifications, or you have yet to discover all the qualities that you crave, we shall council together to conceive your fantasized instrument.',
+        'If you so desire to join the ranks, to wield a Valorous weapon of your own fortified for a lifetime of service, you shall find the freedom to inquire as above, so below. Whether you possess the knowledge of your preferred specifications, or you have yet to discover all the qualities that you crave, we shall council together to conceive your fantasized instrument.',
       img1: stormbringer,
       img2: warmachine,
       img3: morgulblade,
       img4: deathdealer,
       img5: carrionbird,
-        img6: stormbringer2,
+      img6: stormbringer2,
+      img7: stormbringerback,
+      img8: warmachineback,
+      img9: deathdealerback,
+      img10: carrionbirdback,
+      img11: stormbringer2back,
       img: img1,
     },
   ],
 };
 
-export const slides = [
-
-];
+export const slides = [];
 
 // testimonials
 export const testimonials = [
   {
     authorImg: TJtest,
     authorText:
-      '“ Kevin is truly a master of his craft and builds without compromise. We worked together to build my dream guitar. We were both on the same wave length for every aspect of the build. He was able to source the best components that bring life to the amazing woods he recommend. Not only is it the most well balanced guitar I\'ve ever held but it sounds even better than it looks, and it\'s the most beautiful beast. The massive sustain is unlike anything else I\'ve ever had out of any guitar I\'ve owned, vintage or custom shop from all of the major dealers. From the first time I strummed it acoustically I was blown away. It sounded so full without even being plugged in... and then I cranked out of my high gain set up and every one in the room dropped their jaw. As time goes on and I play it more it just keeps getting better. I can\'t wait until we can start working on the next project together. “',
+      "“ Kevin is truly a master of his craft and builds without compromise. We worked together to build my dream guitar. We were both on the same wave length for every aspect of the build. He was able to source the best components that bring life to the amazing woods he recommend. Not only is it the most well balanced guitar I've ever held but it sounds even better than it looks, and it's the most beautiful beast. The massive sustain is unlike anything else I've ever had out of any guitar I've owned, vintage or custom shop from all of the major dealers. From the first time I strummed it acoustically I was blown away. It sounded so full without even being plugged in... and then I cranked out of my high gain set up and every one in the room dropped their jaw. As time goes on and I play it more it just keeps getting better. I can't wait until we can start working on the next project together. “",
     authorName: 'Trevor Jayne',
     authorPosition: 'Austin, TEXAS',
   },
@@ -112,7 +114,10 @@ export const footerData = {
         name: 'Contact',
       },
       { href: '#/main/webstore', name: 'Webstore' },
-      { href: 'https://www.instagram.com/valorousguitars/', name: <AiFillInstagram /> },
+      {
+        href: 'https://www.instagram.com/valorousguitars/',
+        name: <AiFillInstagram />,
+      },
     ],
   },
 };
@@ -122,8 +127,7 @@ export const contactData = {
   info: [
     {
       title: 'Email:',
-      subtitle:
-        'Send me an email if you would like to get in contact',
+      subtitle: 'Send me an email if you would like to get in contact',
       email: {
         icon: 'email:',
         address: 'valorousguitars@gmail.com',
@@ -140,7 +144,7 @@ export const contactData = {
 };
 
 export const partnersData = {
-  title: "Some of our Partners",
+  title: 'Some of our Partners',
   images: [
     { kahler: kahler },
     { hipshot: hipshot },
