@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/valorous-guitars/static/css/main.7ca4bbf2.css",
-    "main.js": "/valorous-guitars/static/js/main.f9d2f78b.js",
-    "static/media/TJtest.jpg": "/valorous-guitars/static/media/TJtest.4d300ba2e841e1332258.jpg",
-    "static/media/warmachine.png": "/valorous-guitars/static/media/warmachine.b9a1b518b83b7911cef4.png",
+    "main.js": "/valorous-guitars/static/js/main.1359ffad.js",
     "static/media/bg.png": "/valorous-guitars/static/media/bg.6710aa56d9e68d4deee5.png",
-    "static/media/morgulblade.png": "/valorous-guitars/static/media/morgulblade.b39b67ac41067cccd703.png",
-    "static/media/stormbringer.png": "/valorous-guitars/static/media/stormbringer.12b309d0f2e082fabfc2.png",
-    "static/media/valimg.JPEG": "/valorous-guitars/static/media/valimg.34757bd5e78b855e80f5.JPEG",
-    "static/media/luketest.jpg": "/valorous-guitars/static/media/luketest.822ed8c7d6e5d215c5e6.jpg",
-    "static/media/deathdealer.png": "/valorous-guitars/static/media/deathdealer.98739afbab9ebae74c03.png",
-    "static/media/carrionbird.png": "/valorous-guitars/static/media/carrionbird.2100b4208c9371a93ea8.png",
+    "static/media/warmachine.png": "/valorous-guitars/static/media/warmachine.f1f0f3c6e47030a1532d.png",
+    "static/media/morgulblade.png": "/valorous-guitars/static/media/morgulblade.a3c8f9e74ea979f952fd.png",
+    "static/media/TJtest.jpg": "/valorous-guitars/static/media/TJtest.0575b1ab2e6f32d70617.jpg",
+    "static/media/stormbringer.png": "/valorous-guitars/static/media/stormbringer.182ce34850189e71fc46.png",
+    "static/media/valimg.JPEG": "/valorous-guitars/static/media/valimg.1a0f80ad9af82ecc7ded.JPEG",
+    "static/media/carrionbird.png": "/valorous-guitars/static/media/carrionbird.c92ab0060bfbb15c5516.png",
+    "static/media/deathdealer.png": "/valorous-guitars/static/media/deathdealer.feb3a47d0f09eecd3f2e.png",
     "static/media/stormbringer2.png": "/valorous-guitars/static/media/stormbringer2.4daeaa248bcb5a2f7de2.png",
     "static/media/ValorousLogo.svg": "/valorous-guitars/static/media/ValorousLogo.810f29ccf5ce9852bd1148ec1d29c8b8.svg",
     "static/media/header-img.jpg": "/valorous-guitars/static/media/header-img.55d5167d88d7f643ef2d.jpg",
     "static/media/music nomad.jpg": "/valorous-guitars/static/media/music nomad.dfd23314502b3d9e345b.jpg",
+    "static/media/luketest.jpg": "/valorous-guitars/static/media/luketest.8b0d723a33e296917d49.jpg",
     "static/media/bareknuckle.jpg": "/valorous-guitars/static/media/bareknuckle.ee70ddaea6abfd21bfd1.jpg",
     "static/media/Kahler.jpg": "/valorous-guitars/static/media/Kahler.dae2996c1b170d6f2f0d.jpg",
     "static/media/arcanapickups.png": "/valorous-guitars/static/media/arcanapickups.bd13d4e26f301a9801b2.png",
@@ -22,10 +22,10 @@
     "static/media/hipshot-products-vector-logo.png": "/valorous-guitars/static/media/hipshot-products-vector-logo.a29292f3e0a2bb9833b9.png",
     "index.html": "/valorous-guitars/index.html",
     "main.7ca4bbf2.css.map": "/valorous-guitars/static/css/main.7ca4bbf2.css.map",
-    "main.f9d2f78b.js.map": "/valorous-guitars/static/js/main.f9d2f78b.js.map"
+    "main.1359ffad.js.map": "/valorous-guitars/static/js/main.1359ffad.js.map"
   },
   "entrypoints": [
     "static/css/main.7ca4bbf2.css",
-    "static/js/main.f9d2f78b.js"
+    "static/js/main.1359ffad.js"
   ]
 }
