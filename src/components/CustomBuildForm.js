@@ -22,6 +22,7 @@ const GuitarForm = () => {
     neckWoodOther: '',
     fretboardWood: '',
     fretboardWoodOther: '',
+    top: '',
     neckConstruction: '',
     scaleLength: '',
     scaleLengthOther: '',
