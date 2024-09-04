@@ -44,6 +44,8 @@ const About = () => {
                       img9,
                       img10,
                       img11,
+                      img12,
+                      img13
                     } = item;
 
                     return (
@@ -136,6 +138,20 @@ const About = () => {
                             <img
                               className="mx-auto mb-5"
                               src={activeImg['img6'] || img6}
+                              alt="/"
+                            />
+                          </div>
+                          <div
+                            className="text-center relative"
+                            onTouchStart={() => handleImageChange('img12', img13)}
+                            onTouchEnd={() => resetImage('img12', img12)}
+                            onMouseEnter={() => handleImageChange('img12', img13)}
+                            onMouseLeave={() => resetImage('img12', img12)}
+                          >
+                            <p className="italic">Jawbreaker</p>
+                            <img
+                              className="mx-auto mb-5"
+                              src={activeImg['img12'] || img12}
                               alt="/"
                             />
                           </div>

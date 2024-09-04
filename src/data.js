@@ -12,6 +12,8 @@ import stormbringer2back from '../src/img/about/stormbringer2back.png';
 import warmachineback from '../src/img/about/warmachineback.png';
 import deathdealerback from '../src/img/about/deathdealerback.png';
 import carrionbirdback from '../src/img/about/carrionbirdback.png';
+import jawbreakerfront from '../src/img/about/jawbreakerfront.png';
+import jawbreakerback from '../src/img/about/jawbreakerback.png';
 //import testimonials photos
 import luket from '../src/img/testimonials/pwwarmachine2.jpg';
 import TJtest from '../src/img/testimonials/TJtest.jpg';
@@ -73,6 +75,8 @@ export const aboutData = {
       img9: deathdealerback,
       img10: carrionbirdback,
       img11: stormbringer2back,
+      img12: jawbreakerfront,
+      img13: jawbreakerback,
       img: img1,
     },
   ],
