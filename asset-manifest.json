@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6d2e37c2.css",
-    "main.js": "/static/js/main.68858bec.js",
+    "main.js": "/static/js/main.4f149bdc.js",
     "static/media/bg.png": "/static/media/bg.6710aa56d9e68d4deee5.png",
     "static/media/warmachine.png": "/static/media/warmachine.f1f0f3c6e47030a1532d.png",
     "static/media/morgulblade.png": "/static/media/morgulblade.a3c8f9e74ea979f952fd.png",
@@ -28,10 +28,10 @@
     "static/media/hipshot-products-vector-logo.png": "/static/media/hipshot-products-vector-logo.a29292f3e0a2bb9833b9.png",
     "index.html": "/index.html",
     "main.6d2e37c2.css.map": "/static/css/main.6d2e37c2.css.map",
-    "main.68858bec.js.map": "/static/js/main.68858bec.js.map"
+    "main.4f149bdc.js.map": "/static/js/main.4f149bdc.js.map"
   },
   "entrypoints": [
     "static/css/main.6d2e37c2.css",
-    "static/js/main.68858bec.js"
+    "static/js/main.4f149bdc.js"
   ]
 }
