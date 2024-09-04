@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.6d2e37c2.css",
-    "main.js": "/static/js/main.4f149bdc.js",
+    "main.js": "/static/js/main.258d94d9.js",
     "static/media/bg.png": "/static/media/bg.6710aa56d9e68d4deee5.png",
     "static/media/warmachine.png": "/static/media/warmachine.f1f0f3c6e47030a1532d.png",
     "static/media/morgulblade.png": "/static/media/morgulblade.a3c8f9e74ea979f952fd.png",
     "static/media/warmachineback.png": "/static/media/warmachineback.c382290029dce7b495d2.png",
+    "static/media/jawbreakerfront.png": "/static/media/jawbreakerfront.0669ae6a4f25f40ef7b2.png",
     "static/media/TJtest.jpg": "/static/media/TJtest.0575b1ab2e6f32d70617.jpg",
     "static/media/stormbringer.png": "/static/media/stormbringer.182ce34850189e71fc46.png",
     "static/media/stormbringerback.png": "/static/media/stormbringerback.ddd8ffaa630d6fffa6a8.png",
@@ -14,6 +15,7 @@
     "static/media/deathdealerback.png": "/static/media/deathdealerback.0a40912b1132542c5a8b.png",
     "static/media/deathdealer.png": "/static/media/deathdealer.feb3a47d0f09eecd3f2e.png",
     "static/media/stormbringer2back.png": "/static/media/stormbringer2back.fc0d48977734e19fd7a4.png",
+    "static/media/jawbreakerback.png": "/static/media/jawbreakerback.0b18f50a50052f765a41.png",
     "static/media/carrionbirdback.png": "/static/media/carrionbirdback.09f01985d04ec0df1269.png",
     "static/media/stormbringer2.png": "/static/media/stormbringer2.4daeaa248bcb5a2f7de2.png",
     "static/media/ValorousLogo.svg": "/static/media/ValorousLogo.810f29ccf5ce9852bd1148ec1d29c8b8.svg",
@@ -28,10 +30,10 @@
     "static/media/hipshot-products-vector-logo.png": "/static/media/hipshot-products-vector-logo.a29292f3e0a2bb9833b9.png",
     "index.html": "/index.html",
     "main.6d2e37c2.css.map": "/static/css/main.6d2e37c2.css.map",
-    "main.4f149bdc.js.map": "/static/js/main.4f149bdc.js.map"
+    "main.258d94d9.js.map": "/static/js/main.258d94d9.js.map"
   },
   "entrypoints": [
     "static/css/main.6d2e37c2.css",
-    "static/js/main.4f149bdc.js"
+    "static/js/main.258d94d9.js"
   ]
 }
