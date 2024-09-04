@@ -5,3 +5,16 @@
   .swiper-pagination-bullet {
     background-color: #DC143C;
   }
+
+  .mySwiper .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto; /* Ensure height is auto to adapt to content */
+    padding: 20px; /* Optional padding to space the content within the slide */
+  }
+  
+  .mySwiper {
+    padding-bottom: 50px; /* Adjust this depending on your pagination */
+  }
+  

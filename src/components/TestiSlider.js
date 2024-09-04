@@ -11,6 +11,7 @@ const TestiSlider = () => {
     <Swiper
       pagination={{ clickable: true }}
       autoplay={{ delay: 15000, disableOnInteraction: false }}
+      autoHeight={true} // Add this prop
       modules={[Autoplay, Pagination]}
       className='mySwiper'
     >

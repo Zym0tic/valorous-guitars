@@ -92,14 +92,14 @@ export const testimonials = [
   {
     authorImg: luket,
     authorText:
-      '"I\'ve owned many guitars over the years, but when I finally received the Warmachine from Kevin, my mind was immediately blown. The craftsmanship and love he puts into his work are instantly apparent. This is hands down the best guitar I\'ve ever played. The sustain is unparalleled, and from the first time I played it, it just felt right. I will definitely be a repeat customer."',
+      '"I\'ve owned many guitars over the years, but when I finally received the Warmachine from Kevin, my mind was immediately blown. The craftsmanship and love he puts into his work are instantly apparent. This is hands down the best guitar I\'ve ever played. The sustain is unparalleled, the instrument is perfectly balanced and from the first time I played it, it just felt right. His comminucation and follow-ups with pictures throughout the whole process made it a great experience. I will definitely be a repeat customer and can not wait to work on a new guitar together."',
     authorName: 'Luke Nukem',
     authorPosition: 'Guitarist, PSYCH-WAR',
   },
   {
     authorImg: anotherdemon,
     authorText:
-      '"I didn\'t even know I was looking for a custom guitar, until I just happened to see the original Stormbringer one day on Instagram. Not soon after I reached out to Valorous Guitars, and quickly understood what this company was. An extremely detail oriented luthier, with a passion for metal music, and a natural talent for making weapons of metal devastation! After a few minutes of conversation back and forth, we had a solid idea of what I actually wanted out of a guitar. Measurements, Electronics, Looks, and a rendering was made within a day or two. I knew right then and there this was going to be fantastic. Within a matter of weeks, after receiving regular updates, my custom made Stormbringer was delivered to my door. Just in time to head out on tour. It was 100% everything I wanted in a custom guitar. It had every element I\'ve liked from each of my guitars from over the years, expertly blended into one hell of an instrument. Since I\'ve gotten it, I haven\'t been able to put it down! I\'m excited to get another one started! We\'ve already started the process, and I\'m pretty sure there will be a more in the future. If you are looking for a handcrafted masterpiece in your arsenal, look no further than Valorous Guitars!"',
+      '"I didn’t even know I was looking for a custom guitar until I saw the original Stormbringer on Instagram. I reached out to Valorous Guitars and quickly understood what this company was about: a detail-oriented luthier with a passion for metal and a talent for making weapons of metal devastation. After a few conversations, we had a solid idea of what I wanted. Measurements, electronics, looks, and a rendering were done within days. My custom Stormbringer was delivered just in time for tour, and it’s everything I wanted. I haven’t been able to put it down since!"',
     authorName: 'Frank Tossie',
     authorPosition: 'Guitarist, ANOTHER DEMON',
   },
